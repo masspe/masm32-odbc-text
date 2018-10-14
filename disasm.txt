@@ -1,0 +1,2633 @@
+D:\ASM-Tutorial\odbcmasm32\odbc.exe   (hex)           (dec)
+
+.EXE size (bytes)                    490            1168
+Minimum load size (bytes)            450            1104
+Overlay number                         0               0
+Initial CS:IP                  0000:0000
+Initial SS:SP                  0000:00B8             184
+Minimum allocation (para)              0               0
+Maximum allocation (para)           FFFF           65535
+Header size (para)                     4               4
+Relocation table offset               40              64
+Relocation entries                     0               0
+
+Portable Executable starts at                 c8
+Signature                               00004550 (PE)
+Machine                                     014C (Intel 386)
+Sections                                    0004
+Time Date Stamp                         5B804FEC Fri Aug 24 20:35:24 2018
+Symbol Table                            00000000
+Number of Symbols                       00000000
+Optional header size                        00E0
+Characteristics                             010F
+	Relocation information stripped
+	Executable Image
+	Line numbers stripped
+	Local symbols stripped
+	32 bit word machine
+Magic                                       010B
+Linker Version                              5.12
+Size of Code                            00001000
+Size of Initialized Data                00003600
+Size of Uninitialized Data              00000000
+Address of Entry Point                  000013AA
+Base of Code                            00001000
+Base of Data                            00002000
+Image Base                              00400000
+Section Alignment                       00001000
+File Alignment                          00000200
+Operating System Version                    4.00
+Image Version                               0.00
+Subsystem Version                           4.00
+reserved                                00000000
+Image Size                              00006000
+Header Size                             00000400
+Checksum                                00000000
+Subsystem                                   0002 (Windows)
+DLL Characteristics                         0000
+Size Of Stack Reserve                   00100000
+Size Of Stack Commit                    00001000
+Size Of Heap Reserve                    00100000
+Size Of Heap Commit                     00001000
+Loader Flags                            00000000
+Number of Directories                   00000010
+
+Directory Name                          VirtAddr  VirtSize
+--------------------------------------  --------  --------
+Export                                  00000000  00000000
+Import                                  000020E0  000000B4
+Resource                                00004000  00001F48
+Exception                               00000000  00000000
+Security                                00000000  00000000
+Base Relocation                         00000000  00000000
+Debug                                   00000000  00000000
+Decription/Architecture                 00000000  00000000
+Machine Value (MIPS GP)                 00000000  00000000
+Thread Storage                          00000000  00000000
+Load Configuration                      00000000  00000000
+Bound Import                            00000000  00000000
+Import Address Table                    00002000  000000E0
+Delay Import                            00000000  00000000
+COM Runtime Descriptor                  00000000  00000000
+(reserved)                              00000000  00000000
+
+Section Table
+-------------
+01  .text   	Virtual Address         00001000
+		Virtual Size            00000F28
+		Raw Data Offset         00000400
+		Raw Data Size           00001000
+		Relocation Offset       00000000
+		Relocation Count        0000
+		Line Number Offset      00000000
+		Line Number Count       0000
+		Characteristics         60000020
+			Code
+			Executable
+			Readable
+
+02  .rdata  	Virtual Address         00002000
+		Virtual Size            000005DE
+		Raw Data Offset         00001400
+		Raw Data Size           00000600
+		Relocation Offset       00000000
+		Relocation Count        0000
+		Line Number Offset      00000000
+		Line Number Count       0000
+		Characteristics         40000040
+			Initialized Data
+			Readable
+
+03  .data   	Virtual Address         00003000
+		Virtual Size            00000F44
+		Raw Data Offset         00001A00
+		Raw Data Size           00000400
+		Relocation Offset       00000000
+		Relocation Count        0000
+		Line Number Offset      00000000
+		Line Number Count       0000
+		Characteristics         C0000040
+			Initialized Data
+			Readable
+			Writeable
+
+04  .rsrc   	Virtual Address         00004000
+		Virtual Size            00001F48
+		Raw Data Offset         00001E00
+		Raw Data Size           00002000
+		Relocation Offset       00000000
+		Relocation Count        0000
+		Line Number Offset      00000000
+		Line Number Count       0000
+		Characteristics         C0000040
+			Initialized Data
+			Readable
+			Writeable
+
+
+ Imp Addr Hint Import Name from gdi32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 00002018  135 SetBkMode
+ 0000201C  12E SelectObject
+ 00002020   2E CreateFontA
+ 00002024  159 SetTextColor
+
+ Imp Addr Hint Import Name from user32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 0000206C  21B SetMenu
+ 00002070  1E1 RegisterClassExA
+ 00002074  23D SetWindowTextA
+ 00002078  248 ShowWindow
+ 0000207C  25E TranslateMessage
+ 00002080  26A UpdateWindow
+ 00002084  1D5 PostQuitMessage
+ 00002088  1D3 PostMessageA
+ 0000208C  1FD SendMessageA
+ 00002090  1B4 MessageBoxIndirectA
+ 00002094  1B1 MessageBoxA
+ 00002098  19E LoadMenuA
+ 0000209C  19A LoadImageA
+ 000020A0  198 LoadIconA
+ 000020A4  194 LoadCursorA
+ 000020A8  143 GetSystemMetrics
+ 000020AC  122 GetMessageA
+ 000020B0   FA GetDlgItem
+ 000020B4   F5 GetDC
+ 000020B8  1BE MoveWindow
+ 000020BC  1EE ReleaseDC
+ 000020C0   B4 EndDialog
+ 000020C4   AA DrawTextA
+ 000020C8   93 DispatchMessageA
+ 000020CC   90 DialogBoxParamA
+ 000020D0   83 DefWindowProcA
+ 000020D4   56 CreateWindowExA
+ 000020D8  238 SetWindowLongA
+
+ Imp Addr Hint Import Name from kernel32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 0000202C   E6 GetCommandLineA
+ 00002030   FE GetCurrentDirectoryA
+ 00002034  134 GetModuleHandleA
+ 00002038  30F lstrcatA
+ 0000203C  315 lstrcpyA
+ 00002040   9B ExitProcess
+
+ Imp Addr Hint Import Name from comctl32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 00002000   55 InitCommonControlsEx
+ 00002004    5 CreateStatusWindowA
+
+ Imp Addr Hint Import Name from comdlg32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 0000200C    A GetOpenFileNameA
+ 00002010    C GetSaveFileNameA
+
+ Imp Addr Hint Import Name from shell32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 00002064   11 DragQueryFileA
+
+ Imp Addr Hint Import Name from msvcrt.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 00002048  10C _itoa
+
+ Imp Addr Hint Import Name from odbc32.dll - Not Bound
+ -------- ---- ---------------------------------------------------------------
+ 00002050   1B SQLAllocHandle
+ 00002054   37 SQLDriverConnectA
+ 00002058   48 SQLFreeHandle
+ 0000205C   7C SQLSetEnvAttr
+
+IAT Entry
+
+ 00000000: 000024FE 000024E8 - 00000000 00002524 - 00002538 00000000 
+ 00000018: 00002292 00002282 - 00002274 0000229E - 00000000 00002484 
+ 00000030: 00002496 000024AE - 000024C2 000024CE - 00002476 00000000 
+ 00000048: 00002578 00000000 - 0000258C 0000259E - 000025B2 000025C2 
+ 00000060: 00000000 0000255A - 00000000 0000240A - 000023DA 00002426 
+ 00000078: 00002438 00002446 - 0000245A 000023C8 - 000023B8 000023FA 
+ 00000090: 00002394 00002386 - 0000237A 0000236C - 00002360 00002352 
+ 000000A8: 0000233E 00002330 - 00002322 0000231A - 000023AA 000023EE 
+ 000000C0: 0000230E 00002302 - 000022EE 000022DC - 000022CA 000022B8 
+ 000000D8: 00002414 00000000 
+
+Disassembly
+
+
+00401000                    fn_00401000:                ; Xref 004018AC
+00401000 55                     push    ebp
+00401001 8BEC                   mov     ebp,esp
+00401003 83C4FC                 add     esp,0FFFFFFFCh
+00401006 6A00                   push    0
+00401008 FF7508                 push    dword ptr [ebp+8]
+0040100B 6A00                   push    0
+0040100D FF750C                 push    dword ptr [ebp+0Ch]
+00401010 FF7510                 push    dword ptr [ebp+10h]
+00401013 FF3554334000           push    dword ptr [off_00403354]
+00401019 6A00                   push    0
+0040101B 6A00                   push    0
+0040101D 6848020056             push    56000248h
+00401022 6A00                   push    0
+00401024 689D314000             push    offset off_0040319D	; 'ReBarWindow32',000h
+00401029 6A00                   push    0
+0040102B E8F60D0000             call    jmp_CreateWindowExA
+00401030 8945FC                 mov     [ebp-4],eax
+00401033 6A05                   push    5
+00401035 FF75FC                 push    dword ptr [ebp-4]
+00401038 E87F0E0000             call    jmp_ShowWindow
+0040103D FF75FC                 push    dword ptr [ebp-4]
+00401040 E8830E0000             call    jmp_UpdateWindow
+00401045 8B45FC                 mov     eax,[ebp-4]
+00401048 C9                     leave
+00401049 C20C00                 ret     0Ch
+
+0040104C                    fn_0040104C:                ; Xref 004018C2
+0040104C 55                     push    ebp
+0040104D 8BEC                   mov     ebp,esp
+0040104F 83C4AC                 add     esp,0FFFFFFACh
+00401052 FF750C                 push    dword ptr [ebp+0Ch]
+00401055 E8CE080000             call    fn_00401928
+0040105A 8945FC                 mov     [ebp-4],eax
+0040105D C745AC50000000         mov     dword ptr [ebp-54h],50h
+00401064 C745B0B1010000         mov     dword ptr [ebp-50h],1B1h
+0040106B C745E07D000000         mov     dword ptr [ebp-20h],7Dh
+00401072 C745B420000000         mov     dword ptr [ebp-4Ch],20h
+00401079 FF3560334000           push    dword ptr [off_00403360]
+0040107F 8F45DC                 pop     [ebp-24h]
+00401082 C745D000000000         mov     dword ptr [ebp-30h],0
+00401089 6A24                   push    24h
+0040108B 8F45D4                 pop     [ebp-2Ch]
+0040108E FF75FC                 push    dword ptr [ebp-4]
+00401091 8F45CC                 pop     [ebp-34h]
+00401094 8D45AC                 lea     eax,[ebp-54h]
+00401097 50                     push    eax
+00401098 6A00                   push    0
+0040109A 6801040000             push    401h
+0040109F FF750C                 push    dword ptr [ebp+0Ch]
+004010A2 E8FD0D0000             call    jmp_SendMessageA
+004010A7 8B45FC                 mov     eax,[ebp-4]
+004010AA C9                     leave
+004010AB C20800                 ret     8
+
+004010AE                    fn_004010AE:                ; Xref 00401612 00401642 00401672 004016A2
+004010AE                                                ;      004016D2 00401702 00401732 00401762
+004010AE                                                ;      004017B3 00401804 0040188C
+004010AE 55                     push    ebp
+004010AF 8BEC                   mov     ebp,esp
+004010B1 83C4D8                 add     esp,0FFFFFFD8h
+004010B4 814D1480000000         or      dword ptr [ebp+14h],80h
+004010BB C745D828000000         mov     dword ptr [ebp-28h],28h
+004010C2 FF7508                 push    dword ptr [ebp+8]
+004010C5 8F45DC                 pop     [ebp-24h]
+004010C8 6A00                   push    0
+004010CA E8110E0000             call    jmp_GetModuleHandleA
+004010CF 8945E0                 mov     [ebp-20h],eax
+004010D2 FF750C                 push    dword ptr [ebp+0Ch]
+004010D5 8F45E4                 pop     [ebp-1Ch]
+004010D8 FF7510                 push    dword ptr [ebp+10h]
+004010DB 8F45E8                 pop     [ebp-18h]
+004010DE FF7514                 push    dword ptr [ebp+14h]
+004010E1 8F45EC                 pop     [ebp-14h]
+004010E4 FF7518                 push    dword ptr [ebp+18h]
+004010E7 8F45F0                 pop     [ebp-10h]
+004010EA C745F400000000         mov     dword ptr [ebp-0Ch],0
+004010F1 C745F800000000         mov     dword ptr [ebp-8],0
+004010F8 C745FC00000000         mov     dword ptr [ebp-4],0
+004010FF 8D45D8                 lea     eax,[ebp-28h]
+00401102 50                     push    eax
+00401103 E8780D0000             call    jmp_MessageBoxIndirectA
+00401108 C9                     leave
+00401109 C21400                 ret     14h
+
+0040110C                    off_0040110C:               ; Xref 0040183B
+0040110C 55                     push    ebp
+0040110D 8BEC                   mov     ebp,esp
+0040110F 83C4D0                 add     esp,0FFFFFFD0h
+00401112 C745D4AB314000         mov     dword ptr [ebp-2Ch],offset off_004031AB	; 'MASM32 Application Template',00Dh,00Ah,00Dh,00Ah,000h
+00401119 C745D0CC314000         mov     dword ptr [ebp-30h],offset off_004031CC	; 'Copyright (c) The MASM32 SDK 1998-2011',00Dh,00Ah,00Dh,00Ah,'ANSI Build',000h
+00401120 8B450C                 mov     eax,[ebp+0Ch]
+00401123 3D10010000             cmp     eax,110h
+00401128 0F8580000000           jne     loc_004011AE
+0040112E 68E7030000             push    3E7h
+00401133 FF7508                 push    dword ptr [ebp+8]
+00401136 E8150D0000             call    jmp_GetDlgItem
+0040113B 8945F8                 mov     [ebp-8],eax
+0040113E 68E5030000             push    3E5h
+00401143 FF7508                 push    dword ptr [ebp+8]
+00401146 E8050D0000             call    jmp_GetDlgItem
+0040114B 8945FC                 mov     [ebp-4],eax
+0040114E FF75D0                 push    dword ptr [ebp-30h]
+00401151 FF75FC                 push    dword ptr [ebp-4]
+00401154 E85D0D0000             call    jmp_SetWindowTextA
+00401159 680E000010             push    1000000Eh
+0040115E 6AF0                   push    0FFFFFFF0h
+00401160 FF75F8                 push    dword ptr [ebp-8]
+00401163 E8480D0000             call    jmp_SetWindowLongA
+00401168 6820100000             push    1020h
+0040116D 6A30                   push    30h
+0040116F 6858020000             push    258h
+00401174 6A00                   push    0
+00401176 6820030000             push    320h
+0040117B FF3540334000           push    dword ptr [off_00403340]
+00401181 E8E80C0000             call    jmp_LoadImageA
+00401186 8945F4                 mov     [ebp-0Ch],eax
+00401189 FF75F4                 push    dword ptr [ebp-0Ch]
+0040118C 6A00                   push    0
+0040118E 6872010000             push    172h
+00401193 FF75F8                 push    dword ptr [ebp-8]
+00401196 E8090D0000             call    jmp_SendMessageA
+0040119B 6A00                   push    0
+0040119D 6A00                   push    0
+0040119F 6A0F                   push    0Fh
+004011A1 FF7508                 push    dword ptr [ebp+8]
+004011A4 E8E30C0000             call    jmp_PostMessageA
+004011A9 E902010000             jmp     loc_004012B0
+
+004011AE                    loc_004011AE:               ; Xref 00401128
+004011AE 83F80F                 cmp     eax,0Fh
+004011B1 0F85E0000000           jne     loc_00401297
+004011B7 FF7508                 push    dword ptr [ebp+8]
+004011BA E88B0C0000             call    jmp_GetDC
+004011BF 8945F0                 mov     [ebp-10h],eax
+004011C2 6A01                   push    1
+004011C4 FF75F0                 push    dword ptr [ebp-10h]
+004011C7 E84E0C0000             call    jmp_SetBkMode
+004011CC 6804324000             push    offset off_00403204	; 'Arial',000h
+004011D1 6A00                   push    0
+004011D3 6A02                   push    2
+004011D5 6A00                   push    0
+004011D7 6A00                   push    0
+004011D9 6A00                   push    0
+004011DB 6A00                   push    0
+004011DD 6A00                   push    0
+004011DF 6A00                   push    0
+004011E1 6820030000             push    320h
+004011E6 6A00                   push    0
+004011E8 6A00                   push    0
+004011EA 6A0A                   push    0Ah
+004011EC 6A14                   push    14h
+004011EE E81B0C0000             call    jmp_CreateFontA
+004011F3 8945E8                 mov     [ebp-18h],eax
+004011F6 FF75E8                 push    dword ptr [ebp-18h]
+004011F9 FF75F0                 push    dword ptr [ebp-10h]
+004011FC E8130C0000             call    jmp_SelectObject
+00401201 8945EC                 mov     [ebp-14h],eax
+00401204 C745D80C000000         mov     dword ptr [ebp-28h],0Ch
+0040120B C745DC0C000000         mov     dword ptr [ebp-24h],0Ch
+00401212 C745E092010000         mov     dword ptr [ebp-20h],192h
+00401219 C745E42A000000         mov     dword ptr [ebp-1Ch],2Ah
+00401220 6A00                   push    0
+00401222 FF75F0                 push    dword ptr [ebp-10h]
+00401225 E8F60B0000             call    jmp_SetTextColor
+0040122A 6A24                   push    24h
+0040122C 8D45D8                 lea     eax,[ebp-28h]
+0040122F 50                     push    eax
+00401230 6AFF                   push    0FFFFFFFFh
+00401232 FF75D4                 push    dword ptr [ebp-2Ch]
+00401235 FF75F0                 push    dword ptr [ebp-10h]
+00401238 E8010C0000             call    jmp_DrawTextA
+0040123D C745D80A000000         mov     dword ptr [ebp-28h],0Ah
+00401244 C745DC0A000000         mov     dword ptr [ebp-24h],0Ah
+0040124B C745E090010000         mov     dword ptr [ebp-20h],190h
+00401252 C745E428000000         mov     dword ptr [ebp-1Ch],28h
+00401259 68FFFFFF00             push    0FFFFFFh
+0040125E FF75F0                 push    dword ptr [ebp-10h]
+00401261 E8BA0B0000             call    jmp_SetTextColor
+00401266 6A24                   push    24h
+00401268 8D45D8                 lea     eax,[ebp-28h]
+0040126B 50                     push    eax
+0040126C 6AFF                   push    0FFFFFFFFh
+0040126E FF75D4                 push    dword ptr [ebp-2Ch]
+00401271 FF75F0                 push    dword ptr [ebp-10h]
+00401274 E8C50B0000             call    jmp_DrawTextA
+00401279 FF75EC                 push    dword ptr [ebp-14h]
+0040127C FF75F0                 push    dword ptr [ebp-10h]
+0040127F E8900B0000             call    jmp_SelectObject
+00401284 FF75F0                 push    dword ptr [ebp-10h]
+00401287 FF7508                 push    dword ptr [ebp+8]
+0040128A E80F0C0000             call    jmp_ReleaseDC
+0040128F 33C0                   xor     eax,eax
+00401291 C9                     leave
+00401292 C21000                 ret     10h
+
+00401295 EB19                   jmp     loc_004012B0
+
+00401297                    loc_00401297:               ; Xref 004011B1
+00401297 3D11010000             cmp     eax,111h
+0040129C 7512                   jnz     loc_004012B0
+0040129E 8B4510                 mov     eax,[ebp+10h]
+004012A1 83F801                 cmp     eax,1
+004012A4 750A                   jnz     loc_004012B0
+004012A6 6A00                   push    0
+004012A8 FF7508                 push    dword ptr [ebp+8]
+004012AB E8940B0000             call    jmp_EndDialog
+004012B0                    loc_004012B0:               ; Xref 004011A9 00401295 0040129C 004012A4
+004012B0 33C0                   xor     eax,eax
+004012B2 C9                     leave
+004012B3 C21000                 ret     10h
+
+004012B6                    fn_004012B6:                ; Xref 0040178B
+004012B6 55                     push    ebp
+004012B7 8BEC                   mov     ebp,esp
+004012B9 83C4B4                 add     esp,0FFFFFFB4h
+004012BC B8F3394000             mov     eax,offset off_004039F3
+004012C1 C60000                 mov     byte ptr [eax],0
+004012C4 57                     push    edi
+004012C5 B94C000000             mov     ecx,4Ch
+004012CA B000                   mov     al,0
+004012CC 8D7DB4                 lea     edi,[ebp-4Ch]
+004012CF F3AA                   rep     stosb
+004012D1 5F                     pop     edi
+004012D2 68F73A4000             push    offset off_00403AF7
+004012D7 6804010000             push    104h
+004012DC E8F90B0000             call    jmp_GetCurrentDirectoryA
+004012E1 B8F73A4000             mov     eax,offset off_00403AF7
+004012E6 8945E0                 mov     [ebp-20h],eax
+004012E9 C745B44C000000         mov     dword ptr [ebp-4Ch],4Ch
+004012F0 FF7508                 push    dword ptr [ebp+8]
+004012F3 8F45B8                 pop     [ebp-48h]
+004012F6 FF750C                 push    dword ptr [ebp+0Ch]
+004012F9 8F45BC                 pop     [ebp-44h]
+004012FC FF7514                 push    dword ptr [ebp+14h]
+004012FF 8F45C0                 pop     [ebp-40h]
+00401302 68F3394000             push    offset off_004039F3
+00401307 8F45D0                 pop     [ebp-30h]
+0040130A C745D404010000         mov     dword ptr [ebp-2Ch],104h
+00401311 FF7510                 push    dword ptr [ebp+10h]
+00401314 8F45E4                 pop     [ebp-1Ch]
+00401317 C745E804102800         mov     dword ptr [ebp-18h],281004h
+0040131E 8D45B4                 lea     eax,[ebp-4Ch]
+00401321 50                     push    eax
+00401322 E8D70B0000             call    jmp_GetOpenFileNameA
+00401327 B8F3394000             mov     eax,offset off_004039F3
+0040132C C9                     leave
+0040132D C21000                 ret     10h
+
+00401330                    fn_00401330:                ; Xref 004017DC
+00401330 55                     push    ebp
+00401331 8BEC                   mov     ebp,esp
+00401333 83C4B4                 add     esp,0FFFFFFB4h
+00401336 B8FB3B4000             mov     eax,offset off_00403BFB
+0040133B C60000                 mov     byte ptr [eax],0
+0040133E 57                     push    edi
+0040133F B94C000000             mov     ecx,4Ch
+00401344 B000                   mov     al,0
+00401346 8D7DB4                 lea     edi,[ebp-4Ch]
+00401349 F3AA                   rep     stosb
+0040134B 5F                     pop     edi
+0040134C 68F73A4000             push    offset off_00403AF7
+00401351 6804010000             push    104h
+00401356 E87F0B0000             call    jmp_GetCurrentDirectoryA
+0040135B B8F73A4000             mov     eax,offset off_00403AF7
+00401360 8945E0                 mov     [ebp-20h],eax
+00401363 C745B44C000000         mov     dword ptr [ebp-4Ch],4Ch
+0040136A FF7508                 push    dword ptr [ebp+8]
+0040136D 8F45B8                 pop     [ebp-48h]
+00401370 FF750C                 push    dword ptr [ebp+0Ch]
+00401373 8F45BC                 pop     [ebp-44h]
+00401376 FF7514                 push    dword ptr [ebp+14h]
+00401379 8F45C0                 pop     [ebp-40h]
+0040137C 68FB3B4000             push    offset off_00403BFB
+00401381 8F45D0                 pop     [ebp-30h]
+00401384 C745D404010000         mov     dword ptr [ebp-2Ch],104h
+0040138B FF7510                 push    dword ptr [ebp+10h]
+0040138E 8F45E4                 pop     [ebp-1Ch]
+00401391 C745E806002800         mov     dword ptr [ebp-18h],280006h
+00401398 8D45B4                 lea     eax,[ebp-4Ch]
+0040139B 50                     push    eax
+0040139C E8630B0000             call    jmp_GetSaveFileNameA
+004013A1 B8FB3B4000             mov     eax,offset off_00403BFB
+004013A6 C9                     leave
+004013A7 C21000                 ret     10h
+
+004013AA                    start:
+004013AA 6A00                   push    0
+004013AC E82F0B0000             call    jmp_GetModuleHandleA
+004013B1 A340334000             mov     [off_00403340],eax
+004013B6 E8190B0000             call    jmp_GetCommandLineA
+004013BB A350334000             mov     [off_00403350],eax
+004013C0 68F4010000             push    1F4h
+004013C5 FF3540334000           push    dword ptr [off_00403340]
+004013CB E8980A0000             call    jmp_LoadIconA
+004013D0 A348334000             mov     [off_00403348],eax
+004013D5 68007F0000             push    7F00h
+004013DA 6A00                   push    0
+004013DC E8810A0000             call    jmp_LoadCursorA
+004013E1 A34C334000             mov     [off_0040334C],eax
+004013E6 6A00                   push    0
+004013E8 E86F0A0000             call    jmp_GetSystemMetrics
+004013ED A354334000             mov     [off_00403354],eax
+004013F2 6A01                   push    1
+004013F4 E8630A0000             call    jmp_GetSystemMetrics
+004013F9 A358334000             mov     [off_00403358],eax
+004013FE 6860100000             push    1060h
+00401403 6A00                   push    0
+00401405 6A00                   push    0
+00401407 6A00                   push    0
+00401409 68BC020000             push    2BCh
+0040140E FF3540334000           push    dword ptr [off_00403340]
+00401414 E8550A0000             call    jmp_LoadImageA
+00401419 A35C334000             mov     [off_0040335C],eax
+0040141E 6A00                   push    0
+00401420 6A24                   push    24h
+00401422 FF3554334000           push    dword ptr [off_00403354]
+00401428 6A00                   push    0
+0040142A 6820030000             push    320h
+0040142F FF3540334000           push    dword ptr [off_00403340]
+00401435 E8340A0000             call    jmp_LoadImageA
+0040143A A360334000             mov     [off_00403360],eax
+0040143F E806000000             call    fn_0040144A
+00401444 50                     push    eax
+00401445 E8840A0000             call    jmp_ExitProcess
+
+0040144A                    fn_0040144A:                ; Xref 0040143F
+0040144A 55                     push    ebp
+0040144B 8BEC                   mov     ebp,esp
+0040144D 83C4B4                 add     esp,0FFFFFFB4h
+00401450 C745B408000000         mov     dword ptr [ebp-4Ch],8
+00401457 33C0                   xor     eax,eax
+00401459 0DFF000000             or      eax,0FFh
+0040145E 83C804                 or      eax,4
+00401461 8945B8                 mov     [ebp-48h],eax
+00401464 8D45B4                 lea     eax,[ebp-4Ch]
+00401467 50                     push    eax
+00401468 E88B0A0000             call    jmp_InitCommonControlsEx
+0040146D C745BC30000000         mov     dword ptr [ebp-44h],30h
+00401474 C745C000300000         mov     dword ptr [ebp-40h],3000h
+0040147B 68C0154000             push    offset off_004015C0
+00401480 8F45C4                 pop     [ebp-3Ch]
+00401483 C745C800000000         mov     dword ptr [ebp-38h],0
+0040148A C745CC00000000         mov     dword ptr [ebp-34h],0
+00401491 FF3540334000           push    dword ptr [off_00403340]
+00401497 8F45D0                 pop     [ebp-30h]
+0040149A 6A10                   push    10h
+0040149C 8F45DC                 pop     [ebp-24h]
+0040149F C745E000000000         mov     dword ptr [ebp-20h],0
+004014A6 C745E40A324000         mov     dword ptr [ebp-1Ch],offset off_0040320A	; 'Application_Class',000h
+004014AD FF3548334000           push    dword ptr [off_00403348]
+004014B3 8F45D4                 pop     [ebp-2Ch]
+004014B6 FF354C334000           push    dword ptr [off_0040334C]
+004014BC 8F45D8                 pop     [ebp-28h]
+004014BF FF3548334000           push    dword ptr [off_00403348]
+004014C5 8F45E8                 pop     [ebp-18h]
+004014C8 8D45BC                 lea     eax,[ebp-44h]
+004014CB 50                     push    eax
+004014CC E8C7090000             call    jmp_RegisterClassExA
+004014D1 6A46                   push    46h
+004014D3 FF3554334000           push    dword ptr [off_00403354]
+004014D9 E812090000             call    fn_00401DF0
+004014DE 8945FC                 mov     [ebp-4],eax
+004014E1 6A46                   push    46h
+004014E3 FF3558334000           push    dword ptr [off_00403358]
+004014E9 E802090000             call    fn_00401DF0
+004014EE 8945F8                 mov     [ebp-8],eax
+004014F1 DB45F8                 fild    dword ptr [ebp-8]
+004014F4 D90524324000           fld     dword ptr [off_00403224]
+004014FA DEC9                   fmulp   st(1),st
+004014FC DB5DEC                 fistp   dword ptr [ebp-14h]
+004014FF 8B45FC                 mov     eax,[ebp-4]
+00401502 3B45EC                 cmp     eax,[ebp-14h]
+00401505 7606                   jbe     loc_0040150D
+00401507 FF75EC                 push    dword ptr [ebp-14h]
+0040150A 8F45FC                 pop     [ebp-4]
+0040150D                    loc_0040150D:               ; Xref 00401505
+0040150D A154334000             mov     eax,[off_00403354]
+00401512 2B45FC                 sub     eax,[ebp-4]
+00401515 D1E8                   shr     eax,1
+00401517 8945F4                 mov     [ebp-0Ch],eax
+0040151A A158334000             mov     eax,[off_00403358]
+0040151F 2B45F8                 sub     eax,[ebp-8]
+00401522 D1E8                   shr     eax,1
+00401524 8945F0                 mov     [ebp-10h],eax
+00401527 6A00                   push    0
+00401529 FF3540334000           push    dword ptr [off_00403340]
+0040152F 6A00                   push    0
+00401531 6A00                   push    0
+00401533 FF75F8                 push    dword ptr [ebp-8]
+00401536 FF75FC                 push    dword ptr [ebp-4]
+00401539 FF75F0                 push    dword ptr [ebp-10h]
+0040153C FF75F4                 push    dword ptr [ebp-0Ch]
+0040153F 680000CF00             push    0CF0000h
+00401544 681C324000             push    offset off_0040321C	; 'Odbc',000h
+00401549 680A324000             push    offset off_0040320A	; 'Application_Class',000h
+0040154E 6A10                   push    10h
+00401550 E8D1080000             call    jmp_CreateWindowExA
+00401555 A344334000             mov     [off_00403344],eax
+0040155A 6858020000             push    258h
+0040155F FF3540334000           push    dword ptr [off_00403340]
+00401565 E80A090000             call    jmp_LoadMenuA
+0040156A 50                     push    eax
+0040156B FF3544334000           push    dword ptr [off_00403344]
+00401571 E834090000             call    jmp_SetMenu
+00401576 6A01                   push    1
+00401578 FF3544334000           push    dword ptr [off_00403344]
+0040157E E839090000             call    jmp_ShowWindow
+00401583 FF3544334000           push    dword ptr [off_00403344]
+00401589 E83A090000             call    jmp_UpdateWindow
+0040158E E802000000             call    fn_00401595
+00401593 C9                     leave
+00401594 C3                     ret
+
+00401595                    fn_00401595:                ; Xref 0040158E
+00401595 55                     push    ebp
+00401596 8BEC                   mov     ebp,esp
+00401598 83C4E4                 add     esp,0FFFFFFE4h
+0040159B 53                     push    ebx
+0040159C 8D5DE4                 lea     ebx,[ebp-1Ch]
+0040159F EB0C                   jmp     loc_004015AD
+
+004015A1                    loc_004015A1:               ; Xref 004015BB
+004015A1 53                     push    ebx
+004015A2 E81B090000             call    jmp_TranslateMessage
+004015A7 53                     push    ebx
+004015A8 E88B080000             call    jmp_DispatchMessageA
+004015AD                    loc_004015AD:               ; Xref 0040159F
+004015AD 6A00                   push    0
+004015AF 6A00                   push    0
+004015B1 6A00                   push    0
+004015B3 53                     push    ebx
+004015B4 E89D080000             call    jmp_GetMessageA
+004015B9 85C0                   test    eax,eax
+004015BB 75E4                   jnz     loc_004015A1
+004015BD 5B                     pop     ebx
+004015BE C9                     leave
+004015BF C3                     ret
+
+004015C0                    off_004015C0:               ; Xref 0040147B
+004015C0 55                     push    ebp
+004015C1 8BEC                   mov     ebp,esp
+004015C3 81C4D0FDFFFF           add     esp,0FFFFFDD0h
+004015C9 8B450C                 mov     eax,[ebp+0Ch]
+004015CC 3D11010000             cmp     eax,111h
+004015D1 0F8581020000           jne     loc_00401858
+004015D7 8B4510                 mov     eax,[ebp+10h]
+004015DA 83F832                 cmp     eax,32h
+004015DD 750D                   jnz     loc_004015EC
+004015DF FF7508                 push    dword ptr [ebp+8]
+004015E2 E812060000             call    fn_00401BF9
+004015E7 E927030000             jmp     loc_00401913
+
+004015EC                    loc_004015EC:               ; Xref 004015DD
+004015EC 83F833                 cmp     eax,33h
+004015EF 752B                   jnz     loc_0040161C
+004015F1 6A0A                   push    0Ah
+004015F3 68FF3C4000             push    offset off_00403CFF
+004015F8 50                     push    eax
+004015F9 FF1548204000           call    dword ptr [_itoa]
+004015FF 83C40C                 add     esp,0Ch
+00401602 68F4010000             push    1F4h
+00401607 6A00                   push    0
+00401609 50                     push    eax
+0040160A 6828324000             push    offset off_00403228	; 'Button ID  51      ',000h
+0040160F FF7508                 push    dword ptr [ebp+8]
+00401612 E897FAFFFF             call    fn_004010AE
+00401617 E9F7020000             jmp     loc_00401913
+
+0040161C                    loc_0040161C:               ; Xref 004015EF
+0040161C 83F834                 cmp     eax,34h
+0040161F 752B                   jnz     loc_0040164C
+00401621 6A0A                   push    0Ah
+00401623 68283D4000             push    offset off_00403D28
+00401628 50                     push    eax
+00401629 FF1548204000           call    dword ptr [_itoa]
+0040162F 83C40C                 add     esp,0Ch
+00401632 68F4010000             push    1F4h
+00401637 6A00                   push    0
+00401639 50                     push    eax
+0040163A 683C324000             push    offset off_0040323C	; 'Button ID  52      ',000h
+0040163F FF7508                 push    dword ptr [ebp+8]
+00401642 E867FAFFFF             call    fn_004010AE
+00401647 E9C7020000             jmp     loc_00401913
+
+0040164C                    loc_0040164C:               ; Xref 0040161F
+0040164C 83F835                 cmp     eax,35h
+0040164F 752B                   jnz     loc_0040167C
+00401651 6A0A                   push    0Ah
+00401653 68503D4000             push    offset off_00403D50
+00401658 50                     push    eax
+00401659 FF1548204000           call    dword ptr [_itoa]
+0040165F 83C40C                 add     esp,0Ch
+00401662 68F4010000             push    1F4h
+00401667 6A00                   push    0
+00401669 50                     push    eax
+0040166A 6850324000             push    offset off_00403250	; 'Button ID  53      ',000h
+0040166F FF7508                 push    dword ptr [ebp+8]
+00401672 E837FAFFFF             call    fn_004010AE
+00401677 E997020000             jmp     loc_00401913
+
+0040167C                    loc_0040167C:               ; Xref 0040164F
+0040167C 83F836                 cmp     eax,36h
+0040167F 752B                   jnz     loc_004016AC
+00401681 6A0A                   push    0Ah
+00401683 68783D4000             push    offset off_00403D78
+00401688 50                     push    eax
+00401689 FF1548204000           call    dword ptr [_itoa]
+0040168F 83C40C                 add     esp,0Ch
+00401692 68F4010000             push    1F4h
+00401697 6A00                   push    0
+00401699 50                     push    eax
+0040169A 6864324000             push    offset off_00403264	; 'Button ID  54      ',000h
+0040169F FF7508                 push    dword ptr [ebp+8]
+004016A2 E807FAFFFF             call    fn_004010AE
+004016A7 E967020000             jmp     loc_00401913
+
+004016AC                    loc_004016AC:               ; Xref 0040167F
+004016AC 83F837                 cmp     eax,37h
+004016AF 752B                   jnz     loc_004016DC
+004016B1 6A0A                   push    0Ah
+004016B3 68A03D4000             push    offset off_00403DA0
+004016B8 50                     push    eax
+004016B9 FF1548204000           call    dword ptr [_itoa]
+004016BF 83C40C                 add     esp,0Ch
+004016C2 68F4010000             push    1F4h
+004016C7 6A00                   push    0
+004016C9 50                     push    eax
+004016CA 6878324000             push    offset off_00403278	; 'Button ID  55      ',000h
+004016CF FF7508                 push    dword ptr [ebp+8]
+004016D2 E8D7F9FFFF             call    fn_004010AE
+004016D7 E937020000             jmp     loc_00401913
+
+004016DC                    loc_004016DC:               ; Xref 004016AF
+004016DC 83F838                 cmp     eax,38h
+004016DF 752B                   jnz     loc_0040170C
+004016E1 6A0A                   push    0Ah
+004016E3 68C83D4000             push    offset off_00403DC8
+004016E8 50                     push    eax
+004016E9 FF1548204000           call    dword ptr [_itoa]
+004016EF 83C40C                 add     esp,0Ch
+004016F2 68F4010000             push    1F4h
+004016F7 6A00                   push    0
+004016F9 50                     push    eax
+004016FA 688C324000             push    offset off_0040328C	; 'Button ID  56      ',000h
+004016FF FF7508                 push    dword ptr [ebp+8]
+00401702 E8A7F9FFFF             call    fn_004010AE
+00401707 E907020000             jmp     loc_00401913
+
+0040170C                    loc_0040170C:               ; Xref 004016DF
+0040170C 83F839                 cmp     eax,39h
+0040170F 752B                   jnz     loc_0040173C
+00401711 6A0A                   push    0Ah
+00401713 68F03D4000             push    offset off_00403DF0
+00401718 50                     push    eax
+00401719 FF1548204000           call    dword ptr [_itoa]
+0040171F 83C40C                 add     esp,0Ch
+00401722 68F4010000             push    1F4h
+00401727 6A00                   push    0
+00401729 50                     push    eax
+0040172A 68A0324000             push    offset off_004032A0	; 'Button ID  57      ',000h
+0040172F FF7508                 push    dword ptr [ebp+8]
+00401732 E877F9FFFF             call    fn_004010AE
+00401737 E9D7010000             jmp     loc_00401913
+
+0040173C                    loc_0040173C:               ; Xref 0040170F
+0040173C 83F83A                 cmp     eax,3Ah
+0040173F 752B                   jnz     loc_0040176C
+00401741 6A0A                   push    0Ah
+00401743 68183E4000             push    offset off_00403E18
+00401748 50                     push    eax
+00401749 FF1548204000           call    dword ptr [_itoa]
+0040174F 83C40C                 add     esp,0Ch
+00401752 68F4010000             push    1F4h
+00401757 6A00                   push    0
+00401759 50                     push    eax
+0040175A 68B4324000             push    offset off_004032B4	; 'Button ID  58      ',000h
+0040175F FF7508                 push    dword ptr [ebp+8]
+00401762 E847F9FFFF             call    fn_004010AE
+00401767 E9A7010000             jmp     loc_00401913
+
+0040176C                    loc_0040176C:               ; Xref 0040173F
+0040176C 3DF2030000             cmp     eax,3F2h
+00401771 754A                   jnz     loc_004017BD
+00401773 C745ECC8324000         mov     dword ptr [ebp-14h],offset off_004032C8	; 'All files',000h
+0040177A FF75EC                 push    dword ptr [ebp-14h]
+0040177D 68D8324000             push    offset off_004032D8	; 'Open File',000h
+00401782 FF3540334000           push    dword ptr [off_00403340]
+00401788 FF7508                 push    dword ptr [ebp+8]
+0040178B E826FBFFFF             call    fn_004012B6
+00401790 8945F0                 mov     [ebp-10h],eax
+00401793 803800                 cmp     byte ptr [eax],0
+00401796 7509                   jnz     loc_004017A1
+00401798 B800000000             mov     eax,0
+0040179D C9                     leave
+0040179E C21000                 ret     10h
+
+004017A1                    loc_004017A1:               ; Xref 00401796
+004017A1 68F4010000             push    1F4h
+004017A6 6A00                   push    0
+004017A8 681C324000             push    offset off_0040321C	; 'Odbc',000h
+004017AD FF75F0                 push    dword ptr [ebp-10h]
+004017B0 FF7508                 push    dword ptr [ebp+8]
+004017B3 E8F6F8FFFF             call    fn_004010AE
+004017B8 E956010000             jmp     loc_00401913
+
+004017BD                    loc_004017BD:               ; Xref 00401771
+004017BD 3DFC030000             cmp     eax,3FCh
+004017C2 754A                   jnz     loc_0040180E
+004017C4 C745E8E2324000         mov     dword ptr [ebp-18h],offset off_004032E2	; 'All files',000h
+004017CB FF75E8                 push    dword ptr [ebp-18h]
+004017CE 68F4324000             push    offset off_004032F4	; 'Save File As ...',000h
+004017D3 FF3540334000           push    dword ptr [off_00403340]
+004017D9 FF7508                 push    dword ptr [ebp+8]
+004017DC E84FFBFFFF             call    fn_00401330
+004017E1 8945F0                 mov     [ebp-10h],eax
+004017E4 803800                 cmp     byte ptr [eax],0
+004017E7 7509                   jnz     loc_004017F2
+004017E9 B800000000             mov     eax,0
+004017EE C9                     leave
+004017EF C21000                 ret     10h
+
+004017F2                    loc_004017F2:               ; Xref 004017E7
+004017F2 68F4010000             push    1F4h
+004017F7 6A00                   push    0
+004017F9 681C324000             push    offset off_0040321C	; 'Odbc',000h
+004017FE FF75F0                 push    dword ptr [ebp-10h]
+00401801 FF7508                 push    dword ptr [ebp+8]
+00401804 E8A5F8FFFF             call    fn_004010AE
+00401809 E905010000             jmp     loc_00401913
+
+0040180E                    loc_0040180E:               ; Xref 004017C2
+0040180E 3D42040000             cmp     eax,442h
+00401813 7519                   jnz     loc_0040182E
+00401815 6A00                   push    0
+00401817 6860F00000             push    0F060h
+0040181C 6812010000             push    112h
+00401821 FF7508                 push    dword ptr [ebp+8]
+00401824 E87B060000             call    jmp_SendMessageA
+00401829 E9E5000000             jmp     loc_00401913
+
+0040182E                    loc_0040182E:               ; Xref 00401813
+0040182E 3D10270000             cmp     eax,2710h
+00401833 0F85DA000000           jne     loc_00401913
+00401839 6A00                   push    0
+0040183B 680C114000             push    offset off_0040110C
+00401840 FF7508                 push    dword ptr [ebp+8]
+00401843 6888130000             push    1388h
+00401848 FF3540334000           push    dword ptr [off_00403340]
+0040184E E8DF050000             call    jmp_DialogBoxParamA
+00401853 E9BB000000             jmp     loc_00401913
+
+00401858                    loc_00401858:               ; Xref 004015D1
+00401858 3D33020000             cmp     eax,233h
+0040185D 753D                   jnz     loc_0040189C
+0040185F 6804010000             push    104h
+00401864 68403E4000             push    offset off_00403E40
+00401869 6A00                   push    0
+0040186B FF7510                 push    dword ptr [ebp+10h]
+0040186E E897060000             call    jmp_DragQueryFileA
+00401873 C745F0403E4000         mov     dword ptr [ebp-10h],offset off_00403E40
+0040187A 68F4010000             push    1F4h
+0040187F 6A00                   push    0
+00401881 6805334000             push    offset off_00403305	; 'WM_DROPFILES',000h
+00401886 FF75F0                 push    dword ptr [ebp-10h]
+00401889 FF7508                 push    dword ptr [ebp+8]
+0040188C E81DF8FFFF             call    fn_004010AE
+00401891 B800000000             mov     eax,0
+00401896 C9                     leave
+00401897 C21000                 ret     10h
+
+0040189A EB77                   jmp     loc_00401913
+
+0040189C                    loc_0040189C:               ; Xref 0040185D
+0040189C 83F801                 cmp     eax,1
+0040189F 753A                   jnz     loc_004018DB
+004018A1 6A24                   push    24h
+004018A3 FF7508                 push    dword ptr [ebp+8]
+004018A6 FF3540334000           push    dword ptr [off_00403340]
+004018AC E84FF7FFFF             call    fn_00401000
+004018B1 A364334000             mov     [off_00403364],eax
+004018B6 FF3564334000           push    dword ptr [off_00403364]
+004018BC FF3540334000           push    dword ptr [off_00403340]
+004018C2 E885F7FFFF             call    fn_0040104C
+004018C7 A368334000             mov     [off_00403368],eax
+004018CC FF7508                 push    dword ptr [ebp+8]
+004018CF E8D2020000             call    fn_00401BA6
+004018D4 A36C334000             mov     [off_0040336C],eax
+004018D9 EB38                   jmp     loc_00401913
+
+004018DB                    loc_004018DB:               ; Xref 0040189F
+004018DB 83F805                 cmp     eax,5
+004018DE 7517                   jnz     loc_004018F7
+004018E0 6A01                   push    1
+004018E2 6A00                   push    0
+004018E4 6A00                   push    0
+004018E6 6A00                   push    0
+004018E8 6A00                   push    0
+004018EA FF356C334000           push    dword ptr [off_0040336C]
+004018F0 E891050000             call    jmp_MoveWindow
+004018F5 EB1C                   jmp     loc_00401913
+
+004018F7                    loc_004018F7:               ; Xref 004018DE
+004018F7 83F810                 cmp     eax,10h
+004018FA 7502                   jnz     loc_004018FE
+004018FC EB15                   jmp     loc_00401913
+
+004018FE                    loc_004018FE:               ; Xref 004018FA
+004018FE 83F802                 cmp     eax,2
+00401901 7510                   jnz     loc_00401913
+00401903 6A00                   push    0
+00401905 E888050000             call    jmp_PostQuitMessage
+0040190A B800000000             mov     eax,0
+0040190F C9                     leave
+00401910 C21000                 ret     10h
+
+00401913                    loc_00401913:               ; Xref 004015E7 00401617 00401647 00401677
+00401913                                                ;      004016A7 004016D7 00401707 00401737
+00401913                                                ;      00401767 004017B8 00401809 00401829
+00401913                                                ;      00401833 00401853 0040189A 004018D9
+00401913                                                ;      004018F5 004018FC 00401901
+00401913 FF7514                 push    dword ptr [ebp+14h]
+00401916 FF7510                 push    dword ptr [ebp+10h]
+00401919 FF750C                 push    dword ptr [ebp+0Ch]
+0040191C FF7508                 push    dword ptr [ebp+8]
+0040191F E808050000             call    jmp_DefWindowProcA
+00401924 C9                     leave
+00401925 C21000                 ret     10h
+
+00401928                    fn_00401928:                ; Xref 00401055
+00401928 55                     push    ebp
+00401929 8BEC                   mov     ebp,esp
+0040192B 83C4DC                 add     esp,0FFFFFFDCh
+0040192E 6A00                   push    0
+00401930 FF3540334000           push    dword ptr [off_00403340]
+00401936 6A00                   push    0
+00401938 FF7508                 push    dword ptr [ebp+8]
+0040193B 6A28                   push    28h
+0040193D 68F4010000             push    1F4h
+00401942 6A00                   push    0
+00401944 6A00                   push    0
+00401946 6840880050             push    50008840h
+0040194B 681C324000             push    offset off_0040321C	; 'Odbc',000h
+00401950 6812334000             push    offset off_00403312	; 'ToolbarWindow32',000h
+00401955 6A00                   push    0
+00401957 E8CA040000             call    jmp_CreateWindowExA
+0040195C 8945FC                 mov     [ebp-4],eax
+0040195F 66B80C00               mov     ax,0Ch
+00401963 C1C010                 rol     eax,10h
+00401966 66B80C00               mov     ax,0Ch
+0040196A 50                     push    eax
+0040196B 6A00                   push    0
+0040196D 6857040000             push    457h
+00401972 FF75FC                 push    dword ptr [ebp-4]
+00401975 E82A050000             call    jmp_SendMessageA
+0040197A 6A00                   push    0
+0040197C 6A14                   push    14h
+0040197E 681E040000             push    41Eh
+00401983 FF75FC                 push    dword ptr [ebp-4]
+00401986 E819050000             call    jmp_SendMessageA
+0040198B B918000000             mov     ecx,18h
+00401990 B818000000             mov     eax,18h
+00401995 C1E010                 shl     eax,10h
+00401998 668BC1                 mov     ax,cx
+0040199B 8945F8                 mov     [ebp-8],eax
+0040199E FF75F8                 push    dword ptr [ebp-8]
+004019A1 6A00                   push    0
+004019A3 6820040000             push    420h
+004019A8 FF75FC                 push    dword ptr [ebp-4]
+004019AB E8F4040000             call    jmp_SendMessageA
+004019B0 FF75F8                 push    dword ptr [ebp-8]
+004019B3 6A00                   push    0
+004019B5 681F040000             push    41Fh
+004019BA FF75FC                 push    dword ptr [ebp-4]
+004019BD E8E2040000             call    jmp_SendMessageA
+004019C2 6A00                   push    0
+004019C4 6A05                   push    5
+004019C6 682F040000             push    42Fh
+004019CB FF75FC                 push    dword ptr [ebp-4]
+004019CE E8D1040000             call    jmp_SendMessageA
+004019D3 C745F000000000         mov     dword ptr [ebp-10h],0
+004019DA FF355C334000           push    dword ptr [off_0040335C]
+004019E0 8F45F4                 pop     [ebp-0Ch]
+004019E3 8D45F0                 lea     eax,[ebp-10h]
+004019E6 50                     push    eax
+004019E7 6A0C                   push    0Ch
+004019E9 6813040000             push    413h
+004019EE FF75FC                 push    dword ptr [ebp-4]
+004019F1 E8AE040000             call    jmp_SendMessageA
+004019F6 C645E404               mov     byte ptr [ebp-1Ch],4
+004019FA C745E800000000         mov     dword ptr [ebp-18h],0
+00401A01 C745EC00000000         mov     dword ptr [ebp-14h],0
+00401A08 C745DC00000000         mov     dword ptr [ebp-24h],0
+00401A0F C745E032000000         mov     dword ptr [ebp-20h],32h
+00401A16 C645E500               mov     byte ptr [ebp-1Bh],0
+00401A1A 8D45DC                 lea     eax,[ebp-24h]
+00401A1D 50                     push    eax
+00401A1E 6A01                   push    1
+00401A20 6814040000             push    414h
+00401A25 FF75FC                 push    dword ptr [ebp-4]
+00401A28 E877040000             call    jmp_SendMessageA
+00401A2D C745DC01000000         mov     dword ptr [ebp-24h],1
+00401A34 C745E033000000         mov     dword ptr [ebp-20h],33h
+00401A3B C645E500               mov     byte ptr [ebp-1Bh],0
+00401A3F 8D45DC                 lea     eax,[ebp-24h]
+00401A42 50                     push    eax
+00401A43 6A01                   push    1
+00401A45 6814040000             push    414h
+00401A4A FF75FC                 push    dword ptr [ebp-4]
+00401A4D E852040000             call    jmp_SendMessageA
+00401A52 C745DC02000000         mov     dword ptr [ebp-24h],2
+00401A59 C745E034000000         mov     dword ptr [ebp-20h],34h
+00401A60 C645E500               mov     byte ptr [ebp-1Bh],0
+00401A64 8D45DC                 lea     eax,[ebp-24h]
+00401A67 50                     push    eax
+00401A68 6A01                   push    1
+00401A6A 6814040000             push    414h
+00401A6F FF75FC                 push    dword ptr [ebp-4]
+00401A72 E82D040000             call    jmp_SendMessageA
+00401A77 C745DC00000000         mov     dword ptr [ebp-24h],0
+00401A7E C745E000000000         mov     dword ptr [ebp-20h],0
+00401A85 C645E501               mov     byte ptr [ebp-1Bh],1
+00401A89 8D45DC                 lea     eax,[ebp-24h]
+00401A8C 50                     push    eax
+00401A8D 6A01                   push    1
+00401A8F 6814040000             push    414h
+00401A94 FF75FC                 push    dword ptr [ebp-4]
+00401A97 E808040000             call    jmp_SendMessageA
+00401A9C C745DC03000000         mov     dword ptr [ebp-24h],3
+00401AA3 C745E035000000         mov     dword ptr [ebp-20h],35h
+00401AAA C645E500               mov     byte ptr [ebp-1Bh],0
+00401AAE 8D45DC                 lea     eax,[ebp-24h]
+00401AB1 50                     push    eax
+00401AB2 6A01                   push    1
+00401AB4 6814040000             push    414h
+00401AB9 FF75FC                 push    dword ptr [ebp-4]
+00401ABC E8E3030000             call    jmp_SendMessageA
+00401AC1 C745DC04000000         mov     dword ptr [ebp-24h],4
+00401AC8 C745E036000000         mov     dword ptr [ebp-20h],36h
+00401ACF C645E500               mov     byte ptr [ebp-1Bh],0
+00401AD3 8D45DC                 lea     eax,[ebp-24h]
+00401AD6 50                     push    eax
+00401AD7 6A01                   push    1
+00401AD9 6814040000             push    414h
+00401ADE FF75FC                 push    dword ptr [ebp-4]
+00401AE1 E8BE030000             call    jmp_SendMessageA
+00401AE6 C745DC05000000         mov     dword ptr [ebp-24h],5
+00401AED C745E037000000         mov     dword ptr [ebp-20h],37h
+00401AF4 C645E500               mov     byte ptr [ebp-1Bh],0
+00401AF8 8D45DC                 lea     eax,[ebp-24h]
+00401AFB 50                     push    eax
+00401AFC 6A01                   push    1
+00401AFE 6814040000             push    414h
+00401B03 FF75FC                 push    dword ptr [ebp-4]
+00401B06 E899030000             call    jmp_SendMessageA
+00401B0B C745DC00000000         mov     dword ptr [ebp-24h],0
+00401B12 C745E000000000         mov     dword ptr [ebp-20h],0
+00401B19 C645E501               mov     byte ptr [ebp-1Bh],1
+00401B1D 8D45DC                 lea     eax,[ebp-24h]
+00401B20 50                     push    eax
+00401B21 6A01                   push    1
+00401B23 6814040000             push    414h
+00401B28 FF75FC                 push    dword ptr [ebp-4]
+00401B2B E874030000             call    jmp_SendMessageA
+00401B30 C745DC06000000         mov     dword ptr [ebp-24h],6
+00401B37 C745E038000000         mov     dword ptr [ebp-20h],38h
+00401B3E C645E500               mov     byte ptr [ebp-1Bh],0
+00401B42 8D45DC                 lea     eax,[ebp-24h]
+00401B45 50                     push    eax
+00401B46 6A01                   push    1
+00401B48 6814040000             push    414h
+00401B4D FF75FC                 push    dword ptr [ebp-4]
+00401B50 E84F030000             call    jmp_SendMessageA
+00401B55 C745DC07000000         mov     dword ptr [ebp-24h],7
+00401B5C C745E039000000         mov     dword ptr [ebp-20h],39h
+00401B63 C645E500               mov     byte ptr [ebp-1Bh],0
+00401B67 8D45DC                 lea     eax,[ebp-24h]
+00401B6A 50                     push    eax
+00401B6B 6A01                   push    1
+00401B6D 6814040000             push    414h
+00401B72 FF75FC                 push    dword ptr [ebp-4]
+00401B75 E82A030000             call    jmp_SendMessageA
+00401B7A C745DC08000000         mov     dword ptr [ebp-24h],8
+00401B81 C745E03A000000         mov     dword ptr [ebp-20h],3Ah
+00401B88 C645E500               mov     byte ptr [ebp-1Bh],0
+00401B8C 8D45DC                 lea     eax,[ebp-24h]
+00401B8F 50                     push    eax
+00401B90 6A01                   push    1
+00401B92 6814040000             push    414h
+00401B97 FF75FC                 push    dword ptr [ebp-4]
+00401B9A E805030000             call    jmp_SendMessageA
+00401B9F 8B45FC                 mov     eax,[ebp-4]
+00401BA2 C9                     leave
+00401BA3 C20400                 ret     4
+
+00401BA6                    fn_00401BA6:                ; Xref 004018CF
+00401BA6 55                     push    ebp
+00401BA7 8BEC                   mov     ebp,esp
+00401BA9 83C4EC                 add     esp,0FFFFFFECh
+00401BAC 68C8000000             push    0C8h
+00401BB1 FF7508                 push    dword ptr [ebp+8]
+00401BB4 6A00                   push    0
+00401BB6 6810000050             push    50000010h
+00401BBB E832030000             call    jmp_CreateStatusWindowA
+00401BC0 8945FC                 mov     [ebp-4],eax
+00401BC3 C745EC64000000         mov     dword ptr [ebp-14h],64h
+00401BCA C745F0C8000000         mov     dword ptr [ebp-10h],0C8h
+00401BD1 C745F42C010000         mov     dword ptr [ebp-0Ch],12Ch
+00401BD8 C745F8FFFFFFFF         mov     dword ptr [ebp-8],0FFFFFFFFh
+00401BDF 8D45EC                 lea     eax,[ebp-14h]
+00401BE2 50                     push    eax
+00401BE3 6A04                   push    4
+00401BE5 6804040000             push    404h
+00401BEA FF75FC                 push    dword ptr [ebp-4]
+00401BED E8B2020000             call    jmp_SendMessageA
+00401BF2 8B45FC                 mov     eax,[ebp-4]
+00401BF5 C9                     leave
+00401BF6 C20400                 ret     4
+
+00401BF9                    fn_00401BF9:                ; Xref 004015E2
+00401BF9 55                     push    ebp
+00401BFA 8BEC                   mov     ebp,esp
+00401BFC 6870334000             push    offset off_00403370
+00401C01 6A00                   push    0
+00401C03 6A01                   push    1
+00401C05 E806030000             call    jmp_SQLAllocHandle
+00401C0A 660BC0                 or      ax,ax
+00401C0D 740A                   jz      loc_00401C19
+00401C0F 6683F801               cmp     ax,1
+00401C13 0F8534010000           jne     loc_00401D4D
+00401C19                    loc_00401C19:               ; Xref 00401C0D
+00401C19 6A00                   push    0
+00401C1B 6A03                   push    3
+00401C1D 68C8000000             push    0C8h
+00401C22 FF3570334000           push    dword ptr [off_00403370]
+00401C28 E8F5020000             call    jmp_SQLSetEnvAttr
+00401C2D 660BC0                 or      ax,ax
+00401C30 740A                   jz      loc_00401C3C
+00401C32 6683F801               cmp     ax,1
+00401C36 0F85EE000000           jne     loc_00401D2A
+00401C3C                    loc_00401C3C:               ; Xref 00401C30
+00401C3C 6874334000             push    offset off_00403374
+00401C41 FF3570334000           push    dword ptr [off_00403370]
+00401C47 6A02                   push    2
+00401C49 E8C2020000             call    jmp_SQLAllocHandle
+00401C4E 660BC0                 or      ax,ax
+00401C51 740A                   jz      loc_00401C5D
+00401C53 6683F801               cmp     ax,1
+00401C57 0F85AA000000           jne     loc_00401D07
+00401C5D                    loc_00401C5D:               ; Xref 00401C51
+00401C5D 6821304000             push    offset off_00403021	; 'DRIVER={Microsoft Access Driver (*.mdb)};DBQ=',000h
+00401C62 68F3354000             push    offset off_004035F3
+00401C67 E880020000             call    jmp_lstrcpyA
+00401C6C 68F3344000             push    offset off_004034F3
+00401C71 68F3354000             push    offset off_004035F3
+00401C76 E86B020000             call    jmp_lstrcatA
+00401C7B 684F304000             push    offset off_0040304F	; 'test.mdb',000h
+00401C80 68F3354000             push    offset off_004035F3
+00401C85 E85C020000             call    jmp_lstrcatA
+00401C8A 6A01                   push    1
+00401C8C 68701D4000             push    offset off_00401D70
+00401C91 6800010000             push    100h
+00401C96 687C334000             push    offset off_0040337C
+00401C9B 6800040000             push    400h
+00401CA0 68F3354000             push    offset off_004035F3
+00401CA5 FF7508                 push    dword ptr [ebp+8]
+00401CA8 FF3574334000           push    dword ptr [off_00403374]
+00401CAE E863020000             call    jmp_SQLDriverConnectA
+00401CB3 660BC0                 or      ax,ax
+00401CB6 7406                   jz      loc_00401CBE
+00401CB8 6683F801               cmp     ax,1
+00401CBC 7519                   jnz     loc_00401CD7
+00401CBE                    loc_00401CBE:               ; Xref 00401CB6
+00401CBE 6A40                   push    40h
+00401CC0 6858304000             push    offset off_00403058	; 'Complete Connection String',000h
+00401CC5 687C334000             push    offset off_0040337C
+00401CCA FF7508                 push    dword ptr [ebp+8]
+00401CCD E8A8010000             call    jmp_MessageBoxA
+00401CD2 E98A000000             jmp     loc_00401D61
+
+00401CD7                    loc_00401CD7:               ; Xref 00401CBC
+00401CD7 FF3574334000           push    dword ptr [off_00403374]
+00401CDD 6A02                   push    2
+00401CDF E838020000             call    jmp_SQLFreeHandle
+00401CE4 FF3570334000           push    dword ptr [off_00403370]
+00401CEA 6A01                   push    1
+00401CEC E82B020000             call    jmp_SQLFreeHandle
+00401CF1 6A10                   push    10h
+00401CF3 6889304000             push    offset off_00403089	; 'ODBC Test',000h
+00401CF8 6845314000             push    offset off_00403145	; 'Connection attempt failed',000h
+00401CFD FF7508                 push    dword ptr [ebp+8]
+00401D00 E875010000             call    jmp_MessageBoxA
+00401D05 EB5A                   jmp     loc_00401D61
+
+00401D07                    loc_00401D07:               ; Xref 00401C57
+00401D07 FF3570334000           push    dword ptr [off_00403370]
+00401D0D 6A01                   push    1
+00401D0F E808020000             call    jmp_SQLFreeHandle
+00401D14 6A10                   push    10h
+00401D16 6889304000             push    offset off_00403089	; 'ODBC Test',000h
+00401D1B 68B8304000             push    offset off_004030B8	; 'Connection handle allocation failed',000h
+00401D20 FF7508                 push    dword ptr [ebp+8]
+00401D23 E852010000             call    jmp_MessageBoxA
+00401D28 EB37                   jmp     loc_00401D61
+
+00401D2A                    loc_00401D2A:               ; Xref 00401C36
+00401D2A FF3570334000           push    dword ptr [off_00403370]
+00401D30 6A01                   push    1
+00401D32 E8E5010000             call    jmp_SQLFreeHandle
+00401D37 6A10                   push    10h
+00401D39 6889304000             push    offset off_00403089	; 'ODBC Test',000h
+00401D3E 68DC304000             push    offset off_004030DC	; 'Cannot set desired ODBC version',000h
+00401D43 FF7508                 push    dword ptr [ebp+8]
+00401D46 E82F010000             call    jmp_MessageBoxA
+00401D4B EB14                   jmp     loc_00401D61
+
+00401D4D                    loc_00401D4D:               ; Xref 00401C13
+00401D4D 6A10                   push    10h
+00401D4F 6889304000             push    offset off_00403089	; 'ODBC Test',000h
+00401D54 6893304000             push    offset off_00403093	; 'Environment handle allocation failed',000h
+00401D59 FF7508                 push    dword ptr [ebp+8]
+00401D5C E819010000             call    jmp_MessageBoxA
+00401D61                    loc_00401D61:               ; Xref 00401CD2 00401D05 00401D28 00401D4B
+00401D61 C9                     leave
+00401D62 C20400                 ret     4
+
+00401D65 CCCCCCCCCCCCCCCCCCCCCC db      11 dup (0CCh)
+
+00401D70                    off_00401D70:               ; Xref 00401C8C
+00401D70 8B442404               mov     eax,[esp+4]
+00401D74 8D5003                 lea     edx,[eax+3]
+00401D77 55                     push    ebp
+00401D78 57                     push    edi
+00401D79 BD80808080             mov     ebp,80808080h
+00401D7E                    loc_00401D7E:               ; Xref 00401DC8
+00401D7E 8B38                   mov     edi,[eax]
+00401D80 83C004                 add     eax,4
+00401D83 8D8FFFFEFEFE           lea     ecx,[edi-1010101h]
+00401D89 F7D7                   not     edi
+00401D8B 23CF                   and     ecx,edi
+00401D8D 23CD                   and     ecx,ebp
+00401D8F 7539                   jnz     loc_00401DCA
+00401D91 8B38                   mov     edi,[eax]
+00401D93 83C004                 add     eax,4
+00401D96 8D8FFFFEFEFE           lea     ecx,[edi-1010101h]
+00401D9C F7D7                   not     edi
+00401D9E 23CF                   and     ecx,edi
+00401DA0 23CD                   and     ecx,ebp
+00401DA2 7526                   jnz     loc_00401DCA
+00401DA4 8B38                   mov     edi,[eax]
+00401DA6 83C004                 add     eax,4
+00401DA9 8D8FFFFEFEFE           lea     ecx,[edi-1010101h]
+00401DAF F7D7                   not     edi
+00401DB1 23CF                   and     ecx,edi
+00401DB3 23CD                   and     ecx,ebp
+00401DB5 7513                   jnz     loc_00401DCA
+00401DB7 8B38                   mov     edi,[eax]
+00401DB9 83C004                 add     eax,4
+00401DBC 8D8FFFFEFEFE           lea     ecx,[edi-1010101h]
+00401DC2 F7D7                   not     edi
+00401DC4 23CF                   and     ecx,edi
+00401DC6 23CD                   and     ecx,ebp
+00401DC8 74B4                   jz      loc_00401D7E
+00401DCA                    loc_00401DCA:               ; Xref 00401D8F 00401DA2 00401DB5
+00401DCA F7C180800000           test    ecx,8080h
+00401DD0 7506                   jnz     loc_00401DD8
+00401DD2 C1E910                 shr     ecx,10h
+00401DD5 83C002                 add     eax,2
+00401DD8                    loc_00401DD8:               ; Xref 00401DD0
+00401DD8 D0E1                   shl     cl,1
+00401DDA 1BC2                   sbb     eax,edx
+00401DDC 5F                     pop     edi
+00401DDD 5D                     pop     ebp
+00401DDE C20400                 ret     4
+
+00401DE1 CCCCCCCCCCCCCCCCCCCC.. db      15 dup (0CCh)
+
+00401DF0                    fn_00401DF0:                ; Xref 004014D9 004014E9
+00401DF0 DB442408               fild    dword ptr [esp+8]
+00401DF4 DB2D30334000           fld     tbyte ptr [off_00403330]
+00401DFA DEC9                   fmulp   st(1),st
+00401DFC DB442404               fild    dword ptr [esp+4]
+00401E00 DEC9                   fmulp   st(1),st
+00401E02 DB5C2408               fistp   dword ptr [esp+8]
+00401E06 8B442408               mov     eax,[esp+8]
+00401E0A C20800                 ret     8
+
+00401E0D CC                     db      0CCh
+
+00401E0E                    jmp_CreateFontA:            ; Xref 004011EE
+00401E0E FF2520204000           jmp     dword ptr [CreateFontA]
+
+00401E14                    jmp_SelectObject:           ; Xref 004011FC 0040127F
+00401E14 FF251C204000           jmp     dword ptr [SelectObject]
+
+00401E1A                    jmp_SetBkMode:              ; Xref 004011C7
+00401E1A FF2518204000           jmp     dword ptr [SetBkMode]
+
+00401E20                    jmp_SetTextColor:           ; Xref 00401225 00401261
+00401E20 FF2524204000           jmp     dword ptr [SetTextColor]
+
+00401E26                    jmp_CreateWindowExA:        ; Xref 0040102B 00401550 00401957
+00401E26 FF25D4204000           jmp     dword ptr [CreateWindowExA]
+
+00401E2C                    jmp_DefWindowProcA:         ; Xref 0040191F
+00401E2C FF25D0204000           jmp     dword ptr [DefWindowProcA]
+
+00401E32                    jmp_DialogBoxParamA:        ; Xref 0040184E
+00401E32 FF25CC204000           jmp     dword ptr [DialogBoxParamA]
+
+00401E38                    jmp_DispatchMessageA:       ; Xref 004015A8
+00401E38 FF25C8204000           jmp     dword ptr [DispatchMessageA]
+
+00401E3E                    jmp_DrawTextA:              ; Xref 00401238 00401274
+00401E3E FF25C4204000           jmp     dword ptr [DrawTextA]
+
+00401E44                    jmp_EndDialog:              ; Xref 004012AB
+00401E44 FF25C0204000           jmp     dword ptr [EndDialog]
+
+00401E4A                    jmp_GetDC:                  ; Xref 004011BA
+00401E4A FF25B4204000           jmp     dword ptr [GetDC]
+
+00401E50                    jmp_GetDlgItem:             ; Xref 00401136 00401146
+00401E50 FF25B0204000           jmp     dword ptr [GetDlgItem]
+
+00401E56                    jmp_GetMessageA:            ; Xref 004015B4
+00401E56 FF25AC204000           jmp     dword ptr [GetMessageA]
+
+00401E5C                    jmp_GetSystemMetrics:       ; Xref 004013E8 004013F4
+00401E5C FF25A8204000           jmp     dword ptr [GetSystemMetrics]
+
+00401E62                    jmp_LoadCursorA:            ; Xref 004013DC
+00401E62 FF25A4204000           jmp     dword ptr [LoadCursorA]
+
+00401E68                    jmp_LoadIconA:              ; Xref 004013CB
+00401E68 FF25A0204000           jmp     dword ptr [LoadIconA]
+
+00401E6E                    jmp_LoadImageA:             ; Xref 00401181 00401414 00401435
+00401E6E FF259C204000           jmp     dword ptr [LoadImageA]
+
+00401E74                    jmp_LoadMenuA:              ; Xref 00401565
+00401E74 FF2598204000           jmp     dword ptr [LoadMenuA]
+
+00401E7A                    jmp_MessageBoxA:            ; Xref 00401CCD 00401D00 00401D23 00401D46
+00401E7A                                                ;      00401D5C
+00401E7A FF2594204000           jmp     dword ptr [MessageBoxA]
+
+00401E80                    jmp_MessageBoxIndirectA:    ; Xref 00401103
+00401E80 FF2590204000           jmp     dword ptr [MessageBoxIndirectA]
+
+00401E86                    jmp_MoveWindow:             ; Xref 004018F0
+00401E86 FF25B8204000           jmp     dword ptr [MoveWindow]
+
+00401E8C                    jmp_PostMessageA:           ; Xref 004011A4
+00401E8C FF2588204000           jmp     dword ptr [PostMessageA]
+
+00401E92                    jmp_PostQuitMessage:        ; Xref 00401905
+00401E92 FF2584204000           jmp     dword ptr [PostQuitMessage]
+
+00401E98                    jmp_RegisterClassExA:       ; Xref 004014CC
+00401E98 FF2570204000           jmp     dword ptr [RegisterClassExA]
+
+00401E9E                    jmp_ReleaseDC:              ; Xref 0040128A
+00401E9E FF25BC204000           jmp     dword ptr [ReleaseDC]
+
+00401EA4                    jmp_SendMessageA:           ; Xref 004010A2 00401196 00401824 00401975
+00401EA4                                                ;      00401986 004019AB 004019BD 004019CE
+00401EA4                                                ;      004019F1 00401A28 00401A4D 00401A72
+00401EA4                                                ;      00401A97 00401ABC 00401AE1 00401B06
+00401EA4                                                ;      00401B2B 00401B50 00401B75 00401B9A
+00401EA4                                                ;      00401BED
+00401EA4 FF258C204000           jmp     dword ptr [SendMessageA]
+
+00401EAA                    jmp_SetMenu:                ; Xref 00401571
+00401EAA FF256C204000           jmp     dword ptr [SetMenu]
+
+00401EB0                    jmp_SetWindowLongA:         ; Xref 00401163
+00401EB0 FF25D8204000           jmp     dword ptr [SetWindowLongA]
+
+00401EB6                    jmp_SetWindowTextA:         ; Xref 00401154
+00401EB6 FF2574204000           jmp     dword ptr [SetWindowTextA]
+
+00401EBC                    jmp_ShowWindow:             ; Xref 00401038 0040157E
+00401EBC FF2578204000           jmp     dword ptr [ShowWindow]
+
+00401EC2                    jmp_TranslateMessage:       ; Xref 004015A2
+00401EC2 FF257C204000           jmp     dword ptr [TranslateMessage]
+
+00401EC8                    jmp_UpdateWindow:           ; Xref 00401040 00401589
+00401EC8 FF2580204000           jmp     dword ptr [UpdateWindow]
+
+00401ECE                    jmp_ExitProcess:            ; Xref 00401445
+00401ECE FF2540204000           jmp     dword ptr [ExitProcess]
+
+00401ED4                    jmp_GetCommandLineA:        ; Xref 004013B6
+00401ED4 FF252C204000           jmp     dword ptr [GetCommandLineA]
+
+00401EDA                    jmp_GetCurrentDirectoryA:   ; Xref 004012DC 00401356
+00401EDA FF2530204000           jmp     dword ptr [GetCurrentDirectoryA]
+
+00401EE0                    jmp_GetModuleHandleA:       ; Xref 004010CA 004013AC
+00401EE0 FF2534204000           jmp     dword ptr [GetModuleHandleA]
+
+00401EE6                    jmp_lstrcatA:               ; Xref 00401C76 00401C85
+00401EE6 FF2538204000           jmp     dword ptr [lstrcatA]
+
+00401EEC                    jmp_lstrcpyA:               ; Xref 00401C67
+00401EEC FF253C204000           jmp     dword ptr [lstrcpyA]
+
+00401EF2                    jmp_CreateStatusWindowA:    ; Xref 00401BBB
+00401EF2 FF2504204000           jmp     dword ptr [CreateStatusWindowA]
+
+00401EF8                    jmp_InitCommonControlsEx:   ; Xref 00401468
+00401EF8 FF2500204000           jmp     dword ptr [InitCommonControlsEx]
+
+00401EFE                    jmp_GetOpenFileNameA:       ; Xref 00401322
+00401EFE FF250C204000           jmp     dword ptr [GetOpenFileNameA]
+
+00401F04                    jmp_GetSaveFileNameA:       ; Xref 0040139C
+00401F04 FF2510204000           jmp     dword ptr [GetSaveFileNameA]
+
+00401F0A                    jmp_DragQueryFileA:         ; Xref 0040186E
+00401F0A FF2564204000           jmp     dword ptr [DragQueryFileA]
+
+00401F10                    jmp_SQLAllocHandle:         ; Xref 00401C05 00401C49
+00401F10 FF2550204000           jmp     dword ptr [SQLAllocHandle]
+
+00401F16                    jmp_SQLDriverConnectA:      ; Xref 00401CAE
+00401F16 FF2554204000           jmp     dword ptr [SQLDriverConnectA]
+
+00401F1C                    jmp_SQLFreeHandle:          ; Xref 00401CDF 00401CEC 00401D0F 00401D32
+00401F1C FF2558204000           jmp     dword ptr [SQLFreeHandle]
+
+00401F22                    jmp_SQLSetEnvAttr:          ; Xref 00401C28
+00401F22 FF255C204000           jmp     dword ptr [SQLSetEnvAttr]
+00402000                    InitCommonControlsEx:       ; Xref 00401EF8 0040212C
+00402000 FE244000               dd      offset InitCommonControlsEx_Hint
+00402004                    CreateStatusWindowA:        ; Xref 00401EF2
+00402004 E8244000               dd      offset CreateStatusWindowA_Hint
+00402008                    NULL_Thunk_comctl32:
+00402008 00000000               dd      00000000h
+0040200C                    GetOpenFileNameA:           ; Xref 00401EFE 00402140
+0040200C 24254000               dd      offset GetOpenFileNameA_Hint
+00402010                    GetSaveFileNameA:           ; Xref 00401F04
+00402010 38254000               dd      offset GetSaveFileNameA_Hint
+00402014                    NULL_Thunk_comdlg32:
+00402014 00000000               dd      00000000h
+00402018                    SetBkMode:                  ; Xref 00401E1A 004020F0
+00402018 92224000               dd      offset SetBkMode_Hint
+0040201C                    SelectObject:               ; Xref 00401E14
+0040201C 82224000               dd      offset SelectObject_Hint
+00402020                    CreateFontA:                ; Xref 00401E0E
+00402020 74224000               dd      offset CreateFontA_Hint
+00402024                    SetTextColor:               ; Xref 00401E20
+00402024 9E224000               dd      offset SetTextColor_Hint
+00402028                    NULL_Thunk_gdi32:
+00402028 00000000               dd      00000000h
+0040202C                    GetCommandLineA:            ; Xref 00401ED4 00402118
+0040202C 84244000               dd      offset GetCommandLineA_Hint
+00402030                    GetCurrentDirectoryA:       ; Xref 00401EDA
+00402030 96244000               dd      offset GetCurrentDirectoryA_Hint
+00402034                    GetModuleHandleA:           ; Xref 00401EE0
+00402034 AE244000               dd      offset GetModuleHandleA_Hint
+00402038                    lstrcatA:                   ; Xref 00401EE6
+00402038 C2244000               dd      offset lstrcatA_Hint
+0040203C                    lstrcpyA:                   ; Xref 00401EEC
+0040203C CE244000               dd      offset lstrcpyA_Hint
+00402040                    ExitProcess:                ; Xref 00401ECE
+00402040 76244000               dd      offset ExitProcess_Hint
+00402044                    NULL_Thunk_kernel32:
+00402044 00000000               dd      00000000h
+00402048                    _itoa:                      ; Xref 004015F9 00401629 00401659 00401689
+00402048                                                ;      004016B9 004016E9 00401719 00401749
+00402048                                                ;      00402168
+00402048 78254000               dd      offset _itoa_Hint
+0040204C                    NULL_Thunk_msvcrt:
+0040204C 00000000               dd      00000000h
+00402050                    SQLAllocHandle:             ; Xref 00401F10 0040217C
+00402050 8C254000               dd      offset SQLAllocHandle_Hint
+00402054                    SQLDriverConnectA:          ; Xref 00401F16
+00402054 9E254000               dd      offset SQLDriverConnectA_Hint
+00402058                    SQLFreeHandle:              ; Xref 00401F1C
+00402058 B2254000               dd      offset SQLFreeHandle_Hint
+0040205C                    SQLSetEnvAttr:              ; Xref 00401F22
+0040205C C2254000               dd      offset SQLSetEnvAttr_Hint
+00402060                    NULL_Thunk_odbc32:
+00402060 00000000               dd      00000000h
+00402064                    DragQueryFileA:             ; Xref 00401F0A 00402154
+00402064 5A254000               dd      offset DragQueryFileA_Hint
+00402068                    NULL_Thunk_shell32:
+00402068 00000000               dd      00000000h
+0040206C                    SetMenu:                    ; Xref 00401EAA 00402104
+0040206C 0A244000               dd      offset SetMenu_Hint
+00402070                    RegisterClassExA:           ; Xref 00401E98
+00402070 DA234000               dd      offset RegisterClassExA_Hint
+00402074                    SetWindowTextA:             ; Xref 00401EB6
+00402074 26244000               dd      offset SetWindowTextA_Hint
+00402078                    ShowWindow:                 ; Xref 00401EBC
+00402078 38244000               dd      offset ShowWindow_Hint
+0040207C                    TranslateMessage:           ; Xref 00401EC2
+0040207C 46244000               dd      offset TranslateMessage_Hint
+00402080                    UpdateWindow:               ; Xref 00401EC8
+00402080 5A244000               dd      offset UpdateWindow_Hint
+00402084                    PostQuitMessage:            ; Xref 00401E92
+00402084 C8234000               dd      offset PostQuitMessage_Hint
+00402088                    PostMessageA:               ; Xref 00401E8C
+00402088 B8234000               dd      offset PostMessageA_Hint
+0040208C                    SendMessageA:               ; Xref 00401EA4
+0040208C FA234000               dd      offset SendMessageA_Hint
+00402090                    MessageBoxIndirectA:        ; Xref 00401E80
+00402090 94234000               dd      offset MessageBoxIndirectA_Hint
+00402094                    MessageBoxA:                ; Xref 00401E7A
+00402094 86234000               dd      offset MessageBoxA_Hint
+00402098                    LoadMenuA:                  ; Xref 00401E74
+00402098 7A234000               dd      offset LoadMenuA_Hint
+0040209C                    LoadImageA:                 ; Xref 00401E6E
+0040209C 6C234000               dd      offset LoadImageA_Hint
+004020A0                    LoadIconA:                  ; Xref 00401E68
+004020A0 60234000               dd      offset LoadIconA_Hint
+004020A4                    LoadCursorA:                ; Xref 00401E62
+004020A4 52234000               dd      offset LoadCursorA_Hint
+004020A8                    GetSystemMetrics:           ; Xref 00401E5C
+004020A8 3E234000               dd      offset GetSystemMetrics_Hint
+004020AC                    GetMessageA:                ; Xref 00401E56
+004020AC 30234000               dd      offset GetMessageA_Hint
+004020B0                    GetDlgItem:                 ; Xref 00401E50
+004020B0 22234000               dd      offset GetDlgItem_Hint
+004020B4                    GetDC:                      ; Xref 00401E4A
+004020B4 1A234000               dd      offset GetDC_Hint
+004020B8                    MoveWindow:                 ; Xref 00401E86
+004020B8 AA234000               dd      offset MoveWindow_Hint
+004020BC                    ReleaseDC:                  ; Xref 00401E9E
+004020BC EE234000               dd      offset ReleaseDC_Hint
+004020C0                    EndDialog:                  ; Xref 00401E44
+004020C0 0E234000               dd      offset EndDialog_Hint
+004020C4                    DrawTextA:                  ; Xref 00401E3E
+004020C4 02234000               dd      offset DrawTextA_Hint
+004020C8                    DispatchMessageA:           ; Xref 00401E38
+004020C8 EE224000               dd      offset DispatchMessageA_Hint
+004020CC                    DialogBoxParamA:            ; Xref 00401E32
+004020CC DC224000               dd      offset DialogBoxParamA_Hint
+004020D0                    DefWindowProcA:             ; Xref 00401E2C
+004020D0 CA224000               dd      offset DefWindowProcA_Hint
+004020D4                    CreateWindowExA:            ; Xref 00401E26
+004020D4 B8224000               dd      offset CreateWindowExA_Hint
+004020D8                    SetWindowLongA:             ; Xref 00401EB0
+004020D8 14244000               dd      offset SetWindowLongA_Hint
+004020DC                    NULL_Thunk_user32:
+004020DC 00000000               dd      00000000h
+004020E0                    gdi32_Characteristics:
+004020E0 AC214000               dd      offset SetBkMode_ByName
+004020E4                    gdi32_TimeDateStamp:
+004020E4 00000000               dd      00000000h
+004020E8                    gdi32_ForwarderChain:
+004020E8 00000000               dd      00000000h
+004020EC                    gdi32_Name:
+004020EC AE224000               dd      offset gdi32	; 'gdi32.dll',000h
+004020F0                    gdi32_FirstThunk:
+004020F0 18204000               dd      offset SetBkMode
+004020F4                    user32_Characteristics:
+004020F4 00224000               dd      offset SetMenu_ByName
+004020F8                    user32_TimeDateStamp:
+004020F8 00000000               dd      00000000h
+004020FC                    user32_ForwarderChain:
+004020FC 00000000               dd      00000000h
+00402100                    user32_Name:
+00402100 6A244000               dd      offset user32	; 'user32.dll',000h
+00402104                    user32_FirstThunk:
+00402104 6C204000               dd      offset SetMenu
+00402108                    kernel32_Characteristics:
+00402108 C0214000               dd      offset GetCommandLineA_ByName
+0040210C                    kernel32_TimeDateStamp:
+0040210C 00000000               dd      00000000h
+00402110                    kernel32_ForwarderChain:
+00402110 00000000               dd      00000000h
+00402114                    kernel32_Name:
+00402114 DA244000               dd      offset kernel32	; 'kernel32.dll',000h
+00402118                    kernel32_FirstThunk:
+00402118 2C204000               dd      offset GetCommandLineA
+0040211C                    comctl32_Characteristics:
+0040211C 94214000               dd      offset InitCommonControlsEx_ByName
+00402120                    comctl32_TimeDateStamp:
+00402120 00000000               dd      00000000h
+00402124                    comctl32_ForwarderChain:
+00402124 00000000               dd      00000000h
+00402128                    comctl32_Name:
+00402128 16254000               dd      offset comctl32	; 'comctl32.dll',000h
+0040212C                    comctl32_FirstThunk:
+0040212C 00204000               dd      offset InitCommonControlsEx
+00402130                    comdlg32_Characteristics:
+00402130 A0214000               dd      offset GetOpenFileNameA_ByName
+00402134                    comdlg32_TimeDateStamp:
+00402134 00000000               dd      00000000h
+00402138                    comdlg32_ForwarderChain:
+00402138 00000000               dd      00000000h
+0040213C                    comdlg32_Name:
+0040213C 4C254000               dd      offset comdlg32	; 'comdlg32.dll',000h
+00402140                    comdlg32_FirstThunk:
+00402140 0C204000               dd      offset GetOpenFileNameA
+00402144                    shell32_Characteristics:
+00402144 F8214000               dd      offset DragQueryFileA_ByName
+00402148                    shell32_TimeDateStamp:
+00402148 00000000               dd      00000000h
+0040214C                    shell32_ForwarderChain:
+0040214C 00000000               dd      00000000h
+00402150                    shell32_Name:
+00402150 6C254000               dd      offset shell32	; 'shell32.dll',000h
+00402154                    shell32_FirstThunk:
+00402154 64204000               dd      offset DragQueryFileA
+00402158                    msvcrt_Characteristics:
+00402158 DC214000               dd      offset _itoa_ByName
+0040215C                    msvcrt_TimeDateStamp:
+0040215C 00000000               dd      00000000h
+00402160                    msvcrt_ForwarderChain:
+00402160 00000000               dd      00000000h
+00402164                    msvcrt_Name:
+00402164 80254000               dd      offset msvcrt	; 'msvcrt.dll',000h
+00402168                    msvcrt_FirstThunk:
+00402168 48204000               dd      offset _itoa
+0040216C                    odbc32_Characteristics:
+0040216C E4214000               dd      offset SQLAllocHandle_ByName
+00402170                    odbc32_TimeDateStamp:
+00402170 00000000               dd      00000000h
+00402174                    odbc32_ForwarderChain:
+00402174 00000000               dd      00000000h
+00402178                    odbc32_Name:
+00402178 D2254000               dd      offset odbc32	; 'odbc32.dll',000h
+0040217C                    odbc32_FirstThunk:
+0040217C 50204000               dd      offset SQLAllocHandle
+00402180                    NULL_Characteristics:
+00402180 00000000               dd      00000000h
+00402184                    NULL_TimeDateStamp:
+00402184 00000000               dd      00000000h
+00402188                    NULL_ForwarderChain:
+00402188 00000000               dd      00000000h
+0040218C                    NULL_Name:
+0040218C 00000000               dd      00000000h
+00402190                    NULL_FirstThunk:
+00402190 00000000               dd      00000000h
+00402194                    InitCommonControlsEx_ByName: ; Xref 0040211C
+00402194 FE244000               dd      offset InitCommonControlsEx_Hint
+00402198                    CreateStatusWindowA_ByName:
+00402198 E8244000               dd      offset CreateStatusWindowA_Hint
+0040219C                    NULL_Characteristics_comctl32:
+0040219C 00000000               dd      00000000h
+004021A0                    GetOpenFileNameA_ByName:    ; Xref 00402130
+004021A0 24254000               dd      offset GetOpenFileNameA_Hint
+004021A4                    GetSaveFileNameA_ByName:
+004021A4 38254000               dd      offset GetSaveFileNameA_Hint
+004021A8                    NULL_Characteristics_comdlg32:
+004021A8 00000000               dd      00000000h
+004021AC                    SetBkMode_ByName:           ; Xref 004020E0
+004021AC 92224000               dd      offset SetBkMode_Hint
+004021B0                    SelectObject_ByName:
+004021B0 82224000               dd      offset SelectObject_Hint
+004021B4                    CreateFontA_ByName:
+004021B4 74224000               dd      offset CreateFontA_Hint
+004021B8                    SetTextColor_ByName:
+004021B8 9E224000               dd      offset SetTextColor_Hint
+004021BC                    NULL_Characteristics_gdi32:
+004021BC 00000000               dd      00000000h
+004021C0                    GetCommandLineA_ByName:     ; Xref 00402108
+004021C0 84244000               dd      offset GetCommandLineA_Hint
+004021C4                    GetCurrentDirectoryA_ByName:
+004021C4 96244000               dd      offset GetCurrentDirectoryA_Hint
+004021C8                    GetModuleHandleA_ByName:
+004021C8 AE244000               dd      offset GetModuleHandleA_Hint
+004021CC                    lstrcatA_ByName:
+004021CC C2244000               dd      offset lstrcatA_Hint
+004021D0                    lstrcpyA_ByName:
+004021D0 CE244000               dd      offset lstrcpyA_Hint
+004021D4                    ExitProcess_ByName:
+004021D4 76244000               dd      offset ExitProcess_Hint
+004021D8                    NULL_Characteristics_kernel32:
+004021D8 00000000               dd      00000000h
+004021DC                    _itoa_ByName:               ; Xref 00402158
+004021DC 78254000               dd      offset _itoa_Hint
+004021E0                    NULL_Characteristics_msvcrt:
+004021E0 00000000               dd      00000000h
+004021E4                    SQLAllocHandle_ByName:      ; Xref 0040216C
+004021E4 8C254000               dd      offset SQLAllocHandle_Hint
+004021E8                    SQLDriverConnectA_ByName:
+004021E8 9E254000               dd      offset SQLDriverConnectA_Hint
+004021EC                    SQLFreeHandle_ByName:
+004021EC B2254000               dd      offset SQLFreeHandle_Hint
+004021F0                    SQLSetEnvAttr_ByName:
+004021F0 C2254000               dd      offset SQLSetEnvAttr_Hint
+004021F4                    NULL_Characteristics_odbc32:
+004021F4 00000000               dd      00000000h
+004021F8                    DragQueryFileA_ByName:      ; Xref 00402144
+004021F8 5A254000               dd      offset DragQueryFileA_Hint
+004021FC                    NULL_Characteristics_shell32:
+004021FC 00000000               dd      00000000h
+00402200                    SetMenu_ByName:             ; Xref 004020F4
+00402200 0A244000               dd      offset SetMenu_Hint
+00402204                    RegisterClassExA_ByName:
+00402204 DA234000               dd      offset RegisterClassExA_Hint
+00402208                    SetWindowTextA_ByName:
+00402208 26244000               dd      offset SetWindowTextA_Hint
+0040220C                    ShowWindow_ByName:
+0040220C 38244000               dd      offset ShowWindow_Hint
+00402210                    TranslateMessage_ByName:
+00402210 46244000               dd      offset TranslateMessage_Hint
+00402214                    UpdateWindow_ByName:
+00402214 5A244000               dd      offset UpdateWindow_Hint
+00402218                    PostQuitMessage_ByName:
+00402218 C8234000               dd      offset PostQuitMessage_Hint
+0040221C                    PostMessageA_ByName:
+0040221C B8234000               dd      offset PostMessageA_Hint
+00402220                    SendMessageA_ByName:
+00402220 FA234000               dd      offset SendMessageA_Hint
+00402224                    MessageBoxIndirectA_ByName:
+00402224 94234000               dd      offset MessageBoxIndirectA_Hint
+00402228                    MessageBoxA_ByName:
+00402228 86234000               dd      offset MessageBoxA_Hint
+0040222C                    LoadMenuA_ByName:
+0040222C 7A234000               dd      offset LoadMenuA_Hint
+00402230                    LoadImageA_ByName:
+00402230 6C234000               dd      offset LoadImageA_Hint
+00402234                    LoadIconA_ByName:
+00402234 60234000               dd      offset LoadIconA_Hint
+00402238                    LoadCursorA_ByName:
+00402238 52234000               dd      offset LoadCursorA_Hint
+0040223C                    GetSystemMetrics_ByName:
+0040223C 3E234000               dd      offset GetSystemMetrics_Hint
+00402240                    GetMessageA_ByName:
+00402240 30234000               dd      offset GetMessageA_Hint
+00402244                    GetDlgItem_ByName:
+00402244 22234000               dd      offset GetDlgItem_Hint
+00402248                    GetDC_ByName:
+00402248 1A234000               dd      offset GetDC_Hint
+0040224C                    MoveWindow_ByName:
+0040224C AA234000               dd      offset MoveWindow_Hint
+00402250                    ReleaseDC_ByName:
+00402250 EE234000               dd      offset ReleaseDC_Hint
+00402254                    EndDialog_ByName:
+00402254 0E234000               dd      offset EndDialog_Hint
+00402258                    DrawTextA_ByName:
+00402258 02234000               dd      offset DrawTextA_Hint
+0040225C                    DispatchMessageA_ByName:
+0040225C EE224000               dd      offset DispatchMessageA_Hint
+00402260                    DialogBoxParamA_ByName:
+00402260 DC224000               dd      offset DialogBoxParamA_Hint
+00402264                    DefWindowProcA_ByName:
+00402264 CA224000               dd      offset DefWindowProcA_Hint
+00402268                    CreateWindowExA_ByName:
+00402268 B8224000               dd      offset CreateWindowExA_Hint
+0040226C                    SetWindowLongA_ByName:
+0040226C 14244000               dd      offset SetWindowLongA_Hint
+00402270                    NULL_Characteristics_user32:
+00402270 00000000               dd      00000000h
+00402274                    CreateFontA_Hint:           ; Xref 00402020 004021B4
+00402274 2E00                   dw      0002Eh
+00402276                    CreateFontA_Name:
+00402276 437265617465466F6E74.. db      'CreateFontA',000h
+00402282                    SelectObject_Hint:          ; Xref 0040201C 004021B0
+00402282 2E01                   dw      0012Eh
+00402284                    SelectObject_Name:
+00402284 53656C6563744F626A65.. db      'SelectObject',000h
+00402291 00                                                 .
+00402292                    SetBkMode_Hint:             ; Xref 00402018 004021AC
+00402292 3501                   dw      00135h
+00402294                    SetBkMode_Name:
+00402294 536574426B4D6F646500   db      'SetBkMode',000h
+0040229E                    SetTextColor_Hint:          ; Xref 00402024 004021B8
+0040229E 5901                   dw      00159h
+004022A0                    SetTextColor_Name:
+004022A0 53657454657874436F6C.. db      'SetTextColor',000h
+004022AD 00                                                 .
+004022AE                    gdi32:                      ; Xref 004020EC
+004022AE 67646933322E646C6C00   db      'gdi32.dll',000h
+004022B8                    CreateWindowExA_Hint:       ; Xref 004020D4 00402268
+004022B8 5600                   dw      00056h
+004022BA                    CreateWindowExA_Name:
+004022BA 43726561746557696E64.. db      'CreateWindowExA',000h
+004022CA                    DefWindowProcA_Hint:        ; Xref 004020D0 00402264
+004022CA 8300                   dw      00083h
+004022CC                    DefWindowProcA_Name:
+004022CC 44656657696E646F7750.. db      'DefWindowProcA',000h
+004022DB 00                                                 .
+004022DC                    DialogBoxParamA_Hint:       ; Xref 004020CC 00402260
+004022DC 9000                   dw      00090h
+004022DE                    DialogBoxParamA_Name:
+004022DE 4469616C6F67426F7850.. db      'DialogBoxParamA',000h
+004022EE                    DispatchMessageA_Hint:      ; Xref 004020C8 0040225C
+004022EE 9300                   dw      00093h
+004022F0                    DispatchMessageA_Name:
+004022F0 44697370617463684D65.. db      'DispatchMessageA',000h
+00402301 00                                                 .
+00402302                    DrawTextA_Hint:             ; Xref 004020C4 00402258
+00402302 AA00                   dw      000AAh
+00402304                    DrawTextA_Name:
+00402304 44726177546578744100   db      'DrawTextA',000h
+0040230E                    EndDialog_Hint:             ; Xref 004020C0 00402254
+0040230E B400                   dw      000B4h
+00402310                    EndDialog_Name:
+00402310 456E644469616C6F6700   db      'EndDialog',000h
+0040231A                    GetDC_Hint:                 ; Xref 004020B4 00402248
+0040231A F500                   dw      000F5h
+0040231C                    GetDC_Name:
+0040231C 476574444300           db      'GetDC',000h
+00402322                    GetDlgItem_Hint:            ; Xref 004020B0 00402244
+00402322 FA00                   dw      000FAh
+00402324                    GetDlgItem_Name:
+00402324 476574446C674974656D.. db      'GetDlgItem',000h
+0040232F 00                                                 .
+00402330                    GetMessageA_Hint:           ; Xref 004020AC 00402240
+00402330 2201                   dw      00122h
+00402332                    GetMessageA_Name:
+00402332 4765744D657373616765.. db      'GetMessageA',000h
+0040233E                    GetSystemMetrics_Hint:      ; Xref 004020A8 0040223C
+0040233E 4301                   dw      00143h
+00402340                    GetSystemMetrics_Name:
+00402340 47657453797374656D4D.. db      'GetSystemMetrics',000h
+00402351 00                                                 .
+00402352                    LoadCursorA_Hint:           ; Xref 004020A4 00402238
+00402352 9401                   dw      00194h
+00402354                    LoadCursorA_Name:
+00402354 4C6F6164437572736F72.. db      'LoadCursorA',000h
+00402360                    LoadIconA_Hint:             ; Xref 004020A0 00402234
+00402360 9801                   dw      00198h
+00402362                    LoadIconA_Name:
+00402362 4C6F616449636F6E4100   db      'LoadIconA',000h
+0040236C                    LoadImageA_Hint:            ; Xref 0040209C 00402230
+0040236C 9A01                   dw      0019Ah
+0040236E                    LoadImageA_Name:
+0040236E 4C6F6164496D61676541.. db      'LoadImageA',000h
+00402379 00                                                 .
+0040237A                    LoadMenuA_Hint:             ; Xref 00402098 0040222C
+0040237A 9E01                   dw      0019Eh
+0040237C                    LoadMenuA_Name:
+0040237C 4C6F61644D656E754100   db      'LoadMenuA',000h
+00402386                    MessageBoxA_Hint:           ; Xref 00402094 00402228
+00402386 B101                   dw      001B1h
+00402388                    MessageBoxA_Name:
+00402388 4D657373616765426F78.. db      'MessageBoxA',000h
+00402394                    MessageBoxIndirectA_Hint:   ; Xref 00402090 00402224
+00402394 B401                   dw      001B4h
+00402396                    MessageBoxIndirectA_Name:
+00402396 4D657373616765426F78.. db      'MessageBoxIndirectA',000h
+004023AA                    MoveWindow_Hint:            ; Xref 004020B8 0040224C
+004023AA BE01                   dw      001BEh
+004023AC                    MoveWindow_Name:
+004023AC 4D6F766557696E646F77.. db      'MoveWindow',000h
+004023B7 00                                                 .
+004023B8                    PostMessageA_Hint:          ; Xref 00402088 0040221C
+004023B8 D301                   dw      001D3h
+004023BA                    PostMessageA_Name:
+004023BA 506F73744D6573736167.. db      'PostMessageA',000h
+004023C7 00                                                 .
+004023C8                    PostQuitMessage_Hint:       ; Xref 00402084 00402218
+004023C8 D501                   dw      001D5h
+004023CA                    PostQuitMessage_Name:
+004023CA 506F7374517569744D65.. db      'PostQuitMessage',000h
+004023DA                    RegisterClassExA_Hint:      ; Xref 00402070 00402204
+004023DA E101                   dw      001E1h
+004023DC                    RegisterClassExA_Name:
+004023DC 5265676973746572436C.. db      'RegisterClassExA',000h
+004023ED 00                                                 .
+004023EE                    ReleaseDC_Hint:             ; Xref 004020BC 00402250
+004023EE EE01                   dw      001EEh
+004023F0                    ReleaseDC_Name:
+004023F0 52656C65617365444300   db      'ReleaseDC',000h
+004023FA                    SendMessageA_Hint:          ; Xref 0040208C 00402220
+004023FA FD01                   dw      001FDh
+004023FC                    SendMessageA_Name:
+004023FC 53656E644D6573736167.. db      'SendMessageA',000h
+00402409 00                                                 .
+0040240A                    SetMenu_Hint:               ; Xref 0040206C 00402200
+0040240A 1B02                   dw      0021Bh
+0040240C                    SetMenu_Name:
+0040240C 5365744D656E7500       db      'SetMenu',000h
+00402414                    SetWindowLongA_Hint:        ; Xref 004020D8 0040226C
+00402414 3802                   dw      00238h
+00402416                    SetWindowLongA_Name:
+00402416 53657457696E646F774C.. db      'SetWindowLongA',000h
+00402425 00                                                 .
+00402426                    SetWindowTextA_Hint:        ; Xref 00402074 00402208
+00402426 3D02                   dw      0023Dh
+00402428                    SetWindowTextA_Name:
+00402428 53657457696E646F7754.. db      'SetWindowTextA',000h
+00402437 00                                                 .
+00402438                    ShowWindow_Hint:            ; Xref 00402078 0040220C
+00402438 4802                   dw      00248h
+0040243A                    ShowWindow_Name:
+0040243A 53686F7757696E646F77.. db      'ShowWindow',000h
+00402445 00                                                 .
+00402446                    TranslateMessage_Hint:      ; Xref 0040207C 00402210
+00402446 5E02                   dw      0025Eh
+00402448                    TranslateMessage_Name:
+00402448 5472616E736C6174654D.. db      'TranslateMessage',000h
+00402459 00                                                 .
+0040245A                    UpdateWindow_Hint:          ; Xref 00402080 00402214
+0040245A 6A02                   dw      0026Ah
+0040245C                    UpdateWindow_Name:
+0040245C 55706461746557696E64.. db      'UpdateWindow',000h
+00402469 00                                                 .
+0040246A                    user32:                     ; Xref 00402100
+0040246A 7573657233322E646C6C.. db      'user32.dll',000h
+00402475 00                                                 .
+00402476                    ExitProcess_Hint:           ; Xref 00402040 004021D4
+00402476 9B00                   dw      0009Bh
+00402478                    ExitProcess_Name:
+00402478 4578697450726F636573.. db      'ExitProcess',000h
+00402484                    GetCommandLineA_Hint:       ; Xref 0040202C 004021C0
+00402484 E600                   dw      000E6h
+00402486                    GetCommandLineA_Name:
+00402486 476574436F6D6D616E64.. db      'GetCommandLineA',000h
+00402496                    GetCurrentDirectoryA_Hint:  ; Xref 00402030 004021C4
+00402496 FE00                   dw      000FEh
+00402498                    GetCurrentDirectoryA_Name:
+00402498 47657443757272656E74.. db      'GetCurrentDirectoryA',000h
+004024AD 00                                                 .
+004024AE                    GetModuleHandleA_Hint:      ; Xref 00402034 004021C8
+004024AE 3401                   dw      00134h
+004024B0                    GetModuleHandleA_Name:
+004024B0 4765744D6F64756C6548.. db      'GetModuleHandleA',000h
+004024C1 00                                                 .
+004024C2                    lstrcatA_Hint:              ; Xref 00402038 004021CC
+004024C2 0F03                   dw      0030Fh
+004024C4                    lstrcatA_Name:
+004024C4 6C7374726361744100     db      'lstrcatA',000h
+004024CD 00                                                 .
+004024CE                    lstrcpyA_Hint:              ; Xref 0040203C 004021D0
+004024CE 1503                   dw      00315h
+004024D0                    lstrcpyA_Name:
+004024D0 6C7374726370794100     db      'lstrcpyA',000h
+004024D9 00                                                 .
+004024DA                    kernel32:                   ; Xref 00402114
+004024DA 6B65726E656C33322E64.. db      'kernel32.dll',000h
+004024E7 00                                                 .
+004024E8                    CreateStatusWindowA_Hint:   ; Xref 00402004 00402198
+004024E8 0500                   dw      00005h
+004024EA                    CreateStatusWindowA_Name:
+004024EA 43726561746553746174.. db      'CreateStatusWindowA',000h
+004024FE                    InitCommonControlsEx_Hint:  ; Xref 00402000 00402194
+004024FE 5500                   dw      00055h
+00402500                    InitCommonControlsEx_Name:
+00402500 496E6974436F6D6D6F6E.. db      'InitCommonControlsEx',000h
+00402515 00                                                 .
+00402516                    comctl32:                   ; Xref 00402128
+00402516 636F6D63746C33322E64.. db      'comctl32.dll',000h
+00402523 00                                                 .
+00402524                    GetOpenFileNameA_Hint:      ; Xref 0040200C 004021A0
+00402524 0A00                   dw      0000Ah
+00402526                    GetOpenFileNameA_Name:
+00402526 4765744F70656E46696C.. db      'GetOpenFileNameA',000h
+00402537 00                                                 .
+00402538                    GetSaveFileNameA_Hint:      ; Xref 00402010 004021A4
+00402538 0C00                   dw      0000Ch
+0040253A                    GetSaveFileNameA_Name:
+0040253A 4765745361766546696C.. db      'GetSaveFileNameA',000h
+0040254B 00                                                 .
+0040254C                    comdlg32:                   ; Xref 0040213C
+0040254C 636F6D646C6733322E64.. db      'comdlg32.dll',000h
+00402559 00                                                 .
+0040255A                    DragQueryFileA_Hint:        ; Xref 00402064 004021F8
+0040255A 1100                   dw      00011h
+0040255C                    DragQueryFileA_Name:
+0040255C 44726167517565727946.. db      'DragQueryFileA',000h
+0040256B 00                                                 .
+0040256C                    shell32:                    ; Xref 00402150
+0040256C 7368656C6C33322E646C.. db      'shell32.dll',000h
+00402578                    _itoa_Hint:                 ; Xref 00402048 004021DC
+00402578 0C01                   dw      0010Ch
+0040257A                    _itoa_Name:
+0040257A 5F69746F6100           db      '_itoa',000h
+00402580                    msvcrt:                     ; Xref 00402164
+00402580 6D73766372742E646C6C.. db      'msvcrt.dll',000h
+0040258B 00                                                 .
+0040258C                    SQLAllocHandle_Hint:        ; Xref 00402050 004021E4
+0040258C 1B00                   dw      0001Bh
+0040258E                    SQLAllocHandle_Name:
+0040258E 53514C416C6C6F634861.. db      'SQLAllocHandle',000h
+0040259D 00                                                 .
+0040259E                    SQLDriverConnectA_Hint:     ; Xref 00402054 004021E8
+0040259E 3700                   dw      00037h
+004025A0                    SQLDriverConnectA_Name:
+004025A0 53514C44726976657243.. db      'SQLDriverConnectA',000h
+004025B2                    SQLFreeHandle_Hint:         ; Xref 00402058 004021EC
+004025B2 4800                   dw      00048h
+004025B4                    SQLFreeHandle_Name:
+004025B4 53514C4672656548616E.. db      'SQLFreeHandle',000h
+004025C2                    SQLSetEnvAttr_Hint:         ; Xref 0040205C 004021F0
+004025C2 7C00                   dw      0007Ch
+004025C4                    SQLSetEnvAttr_Name:
+004025C4 53514C536574456E7641.. db      'SQLSetEnvAttr',000h
+004025D2                    odbc32:                     ; Xref 00402178
+004025D2 6F64626333322E646C6C.. db      'odbc32.dll',000h
+004025DD 00                                                 .
+00403000 73 65 6C 65 63 74 20 2A - 20 66 72 6F 6D 20 6D 61  select * from ma
+00403010 69 6E 00 20 77 68 65 72 - 65 20 6E 61 6D 65 3D 3F  in. where name=?
+00403020 00                                                 .
+00403021                    off_00403021:               ; Xref 00401C5D
+00403021 4452495645523D7B4D69.. db      'DRIVER={Microsoft Access Driver (*.mdb)};DBQ=',000h
+0040304F                    off_0040304F:               ; Xref 00401C7B
+0040304F 746573742E6D646200     db      'test.mdb',000h
+00403058                    off_00403058:               ; Xref 00401CC0
+00403058 436F6D706C6574652043.. db      'Complete Connection String',000h
+00403073 44 69 73 63 6F 6E 6E 65 - 63 74 20 73 75 63 63 65  Disconnect succe
+00403083 73 73 66 75 6C 00                                  ssful.
+00403089                    off_00403089:               ; Xref 00401CF3 00401D16 00401D39 00401D4F
+00403089 4F444243205465737400   db      'ODBC Test',000h
+00403093                    off_00403093:               ; Xref 00401D54
+00403093 456E7669726F6E6D656E.. db      'Environment handle allocation failed',000h
+004030B8                    off_004030B8:               ; Xref 00401D1B
+004030B8 436F6E6E656374696F6E.. db      'Connection handle allocation failed',000h
+004030DC                    off_004030DC:               ; Xref 00401D3E
+004030DC 43616E6E6F7420736574.. db      'Cannot set desired ODBC version',000h
+004030FC 59 6F 75 20 6D 75 73 74 - 20 74 79 70 65 20 74 68  You must type th
+0040310C 65 20 6E 61 6D 65 20 69 - 6E 20 74 68 65 20 65 64  e name in the ed
+0040311C 69 74 20 62 6F 78 00 45 - 78 65 63 75 74 69 6F 6E  it box.Execution
+0040312C 20 6F 66 20 53 51 4C 20 - 73 74 61 74 65 6D 65 6E   of SQL statemen
+0040313C 74 20 66 61 69 6C 65 64 - 00                       t failed.
+00403145                    off_00403145:               ; Xref 00401CF8
+00403145 436F6E6E656374696F6E.. db      'Connection attempt failed',000h
+0040315F 53 74 61 74 65 6D 65 6E - 74 20 68 61 6E 64 6C 65  Statement handle
+0040316F 20 61 6C 6C 6F 63 61 74 - 69 6F 6E 20 66 61 69 6C   allocation fail
+0040317F 65 64 00 4E 61 6D 65 00 - 53 75 72 6E 61 6D 65 00  ed.Name.Surname.
+0040318F 54 65 6C 65 70 68 6F 6E - 65 20 4E 6F 2E 00        Telephone No..
+0040319D                    off_0040319D:               ; Xref 00401024
+0040319D 526542617257696E646F.. db      'ReBarWindow32',000h
+004031AB                    off_004031AB:               ; Xref 00401112
+004031AB 4D41534D333220417070.. db      'MASM32 Application Template',00Dh,00Ah,00Dh,00Ah,000h
+004031CB 00                                                 .
+004031CC                    off_004031CC:               ; Xref 00401119
+004031CC 436F7079726967687420.. db      'Copyright (c) The MASM32 SDK 1998-2011',00Dh,00Ah,00Dh,00Ah,'ANSI Build',000h
+00403201 00 00 00                                           ...
+00403204                    off_00403204:               ; Xref 004011CC
+00403204 417269616C00           db      'Arial',000h
+0040320A                    off_0040320A:               ; Xref 004014A6 00401549
+0040320A 4170706C69636174696F.. db      'Application_Class',000h
+0040321C                    off_0040321C:               ; Xref 00401544 004017A8 004017F9 0040194B
+0040321C 4F64626300             db      'Odbc',000h
+00403221 00 00 00                                           ...
+00403224                    off_00403224:               ; Xref 004014F4
+00403224 3333B33F               real4   1.400000e+000
+00403228                    off_00403228:               ; Xref 0040160A
+00403228 427574746F6E20494420.. db      'Button ID  51      ',000h
+0040323C                    off_0040323C:               ; Xref 0040163A
+0040323C 427574746F6E20494420.. db      'Button ID  52      ',000h
+00403250                    off_00403250:               ; Xref 0040166A
+00403250 427574746F6E20494420.. db      'Button ID  53      ',000h
+00403264                    off_00403264:               ; Xref 0040169A
+00403264 427574746F6E20494420.. db      'Button ID  54      ',000h
+00403278                    off_00403278:               ; Xref 004016CA
+00403278 427574746F6E20494420.. db      'Button ID  55      ',000h
+0040328C                    off_0040328C:               ; Xref 004016FA
+0040328C 427574746F6E20494420.. db      'Button ID  56      ',000h
+004032A0                    off_004032A0:               ; Xref 0040172A
+004032A0 427574746F6E20494420.. db      'Button ID  57      ',000h
+004032B4                    off_004032B4:               ; Xref 0040175A
+004032B4 427574746F6E20494420.. db      'Button ID  58      ',000h
+004032C8                    off_004032C8:               ; Xref 00401773
+004032C8 416C6C2066696C657300   db      'All files',000h
+004032D2 2A 2E 2A 00 00 00                                  *.*...
+004032D8                    off_004032D8:               ; Xref 0040177D
+004032D8 4F70656E2046696C6500   db      'Open File',000h
+004032E2                    off_004032E2:               ; Xref 004017C4
+004032E2 416C6C2066696C657300   db      'All files',000h
+004032EC 2A 2E 2A 00 00 00 00 00                            *.*.....
+004032F4                    off_004032F4:               ; Xref 004017CE
+004032F4 536176652046696C6520.. db      'Save File As ...',000h
+00403305                    off_00403305:               ; Xref 00401881
+00403305 574D5F44524F5046494C.. db      'WM_DROPFILES',000h
+00403312                    off_00403312:               ; Xref 00401950
+00403312 546F6F6C62617257696E.. db      'ToolbarWindow32',000h
+00403322 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00        ..............
+00403330                    off_00403330:               ; Xref 00401DF4
+00403330 0AD7A3703D0AD7A3F83F   real10  0AD7A3703D0AD7A3F83Fr
+0040333A 00 00 00 00 00 00                                  ......
+00403340                    off_00403340:               ; Xref 0040117B 004013B1 004013C5 0040140E
+00403340                                                ;      0040142F 00401491 00401529 0040155F
+00403340                                                ;      00401782 004017D3 00401848 004018A6
+00403340                                                ;      004018BC 00401930
+00403340 00 00 00 00                                        ....
+00403344                    off_00403344:               ; Xref 00401555 0040156B 00401578 00401583
+00403344 00 00 00 00                                        ....
+00403348                    off_00403348:               ; Xref 004013D0 004014AD 004014BF
+00403348 00 00 00 00                                        ....
+0040334C                    off_0040334C:               ; Xref 004013E1 004014B6
+0040334C 00 00 00 00                                        ....
+00403350                    off_00403350:               ; Xref 004013BB
+00403350 00 00 00 00                                        ....
+00403354                    off_00403354:               ; Xref 00401013 004013ED 00401422 004014D3
+00403354                                                ;      0040150D
+00403354 00 00 00 00                                        ....
+00403358                    off_00403358:               ; Xref 004013F9 004014E3 0040151A
+00403358 00 00 00 00                                        ....
+0040335C                    off_0040335C:               ; Xref 00401419 004019DA
+0040335C 00 00 00 00                                        ....
+00403360                    off_00403360:               ; Xref 00401079 0040143A
+00403360 00 00 00 00                                        ....
+00403364                    off_00403364:               ; Xref 004018B1 004018B6
+00403364 00 00 00 00                                        ....
+00403368                    off_00403368:               ; Xref 004018C7
+00403368 00 00 00 00                                        ....
+0040336C                    off_0040336C:               ; Xref 004018D4 004018EA
+0040336C 00 00 00 00                                        ....
+00403370                    off_00403370:               ; Xref 00401BFC 00401C22 00401C41 00401CE4
+00403370                                                ;      00401D07 00401D2A
+00403370 00 00 00 00                                        ....
+00403374                    off_00403374:               ; Xref 00401C3C 00401CA8 00401CD7
+00403374 00 00 00 00 00 00 00 00                            ........
+0040337C                    off_0040337C:               ; Xref 00401C96 00401CC5
+0040337C 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0040338C 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0040339C 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033AC 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033BC 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033CC 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033DC 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033EC 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004033FC 00 00 00 00                                        ....
+00404000 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 07 00  ................
+00404010 02 00 00 00 48 00 00 80 - 03 00 00 00 68 00 00 80  ....H.......h...
+00404020 04 00 00 00 80 00 00 80 - 05 00 00 00 98 00 00 80  ................
+00404030 0E 00 00 00 B0 00 00 80 - 10 00 00 00 C8 00 00 80  ................
+00404040 18 00 00 00 E0 00 00 80 - 00 00 00 00 00 00 00 00  ................
+00404050 00 00 00 00 00 00 02 00 - BC 02 00 00 F8 00 00 80  ................
+00404060 20 03 00 00 10 01 00 80 - 00 00 00 00 00 00 00 00   ...............
+00404070 00 00 00 00 00 00 01 00 - 01 00 00 00 28 01 00 80  ............(...
+00404080 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+00404090 58 02 00 00 40 01 00 80 - 00 00 00 00 00 00 00 00  X...@...........
+004040A0 00 00 00 00 00 00 01 00 - 88 13 00 00 58 01 00 80  ............X...
+004040B0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+004040C0 F4 01 00 00 70 01 00 80 - 00 00 00 00 00 00 00 00  ....p...........
+004040D0 00 00 00 00 00 00 01 00 - 01 00 00 00 88 01 00 80  ................
+004040E0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+004040F0 01 00 00 00 A0 01 00 80 - 00 00 00 00 00 00 00 00  ................
+00404100 00 00 00 00 00 00 01 00 - 09 04 00 00 B8 01 00 00  ................
+00404110 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+00404120 09 04 00 00 C8 01 00 00 - 00 00 00 00 00 00 00 00  ................
+00404130 00 00 00 00 00 00 01 00 - 09 04 00 00 D8 01 00 00  ................
+00404140 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+00404150 09 04 00 00 E8 01 00 00 - 00 00 00 00 00 00 00 00  ................
+00404160 00 00 00 00 00 00 01 00 - 09 04 00 00 F8 01 00 00  ................
+00404170 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+00404180 09 04 00 00 08 02 00 00 - 00 00 00 00 00 00 00 00  ................
+00404190 00 00 00 00 00 00 01 00 - 09 04 00 00 18 02 00 00  ................
+004041A0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 01 00  ................
+004041B0 09 04 00 00 28 02 00 00 - 00 47 00 00 68 12 00 00  ....(....G..h...
+004041C0 00 00 00 00 00 00 00 00 - 68 59 00 00 28 01 00 00  ........hY..(...
+004041D0 00 00 00 00 00 00 00 00 - 00 44 00 00 E8 02 00 00  .........D......
+004041E0 00 00 00 00 00 00 00 00 - 90 5A 00 00 D8 00 00 00  .........Z......
+004041F0 00 00 00 00 00 00 00 00 - 68 5B 00 00 E8 00 00 00  ........h[......
+00404200 00 00 00 00 00 00 00 00 - E8 46 00 00 14 00 00 00  .........F......
+00404210 00 00 00 00 00 00 00 00 - 50 5C 00 00 F8 02 00 00  ........P\......
+00404220 00 00 00 00 00 00 00 00 - 40 42 00 00 B9 01 00 00  ........@B......
+00404230 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404240 3C 3F 78 6D 6C 20 76 65 - 72 73 69 6F 6E 3D 22 31  <?xml version="1
+00404250 2E 30 22 20 65 6E 63 6F - 64 69 6E 67 3D 22 55 54  .0" encoding="UT
+00404260 46 2D 38 22 20 73 74 61 - 6E 64 61 6C 6F 6E 65 3D  F-8" standalone=
+00404270 22 79 65 73 22 3F 3E 0D - 0A 3C 61 73 73 65 6D 62  "yes"?>..<assemb
+00404280 6C 79 20 78 6D 6C 6E 73 - 3D 22 75 72 6E 3A 73 63  ly xmlns="urn:sc
+00404290 68 65 6D 61 73 2D 6D 69 - 63 72 6F 73 6F 66 74 2D  hemas-microsoft-
+004042A0 63 6F 6D 3A 61 73 6D 2E - 76 31 22 20 6D 61 6E 69  com:asm.v1" mani
+004042B0 66 65 73 74 56 65 72 73 - 69 6F 6E 3D 22 31 2E 30  festVersion="1.0
+004042C0 22 3E 0D 0A 3C 64 65 73 - 63 72 69 70 74 69 6F 6E  ">..<description
+004042D0 3E 57 69 6E 64 6F 77 73 - 20 41 70 70 6C 69 63 61  >Windows Applica
+004042E0 74 69 6F 6E 3C 2F 64 65 - 73 63 72 69 70 74 69 6F  tion</descriptio
+004042F0 6E 3E 0D 0A 3C 64 65 70 - 65 6E 64 65 6E 63 79 3E  n>..<dependency>
+00404300 0D 0A 3C 64 65 70 65 6E - 64 65 6E 74 41 73 73 65  ..<dependentAsse
+00404310 6D 62 6C 79 3E 0D 0A 3C - 61 73 73 65 6D 62 6C 79  mbly>..<assembly
+00404320 49 64 65 6E 74 69 74 79 - 0D 0A 74 79 70 65 3D 22  Identity..type="
+00404330 77 69 6E 33 32 22 0D 0A - 6E 61 6D 65 3D 22 4D 69  win32"..name="Mi
+00404340 63 72 6F 73 6F 66 74 2E - 57 69 6E 64 6F 77 73 2E  crosoft.Windows.
+00404350 43 6F 6D 6D 6F 6E 2D 43 - 6F 6E 74 72 6F 6C 73 22  Common-Controls"
+00404360 0D 0A 76 65 72 73 69 6F - 6E 3D 22 36 2E 30 2E 30  ..version="6.0.0
+00404370 2E 30 22 0D 0A 70 72 6F - 63 65 73 73 6F 72 41 72  .0"..processorAr
+00404380 63 68 69 74 65 63 74 75 - 72 65 3D 22 58 38 36 22  chitecture="X86"
+00404390 0D 0A 70 75 62 6C 69 63 - 4B 65 79 54 6F 6B 65 6E  ..publicKeyToken
+004043A0 3D 22 36 35 39 35 62 36 - 34 31 34 34 63 63 66 31  ="6595b64144ccf1
+004043B0 64 66 22 0D 0A 6C 61 6E - 67 75 61 67 65 3D 22 2A  df"..language="*
+004043C0 22 0D 0A 2F 3E 0D 0A 3C - 2F 64 65 70 65 6E 64 65  "../>..</depende
+004043D0 6E 74 41 73 73 65 6D 62 - 6C 79 3E 0D 0A 3C 2F 64  ntAssembly>..</d
+004043E0 65 70 65 6E 64 65 6E 63 - 79 3E 0D 0A 3C 2F 61 73  ependency>..</as
+004043F0 73 65 6D 62 6C 79 3E 0D - 0A 00 00 00 00 00 00 00  sembly>.........
+00404400 28 00 00 00 20 00 00 00 - 40 00 00 00 01 00 04 00  (... ...@.......
+00404410 00 00 00 00 80 02 00 00 - 00 00 00 00 00 00 00 00  ................
+00404420 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 80 00  ................
+00404430 00 80 00 00 00 80 80 00 - 80 00 00 00 80 00 80 00  ................
+00404440 80 80 00 00 80 80 80 00 - C0 C0 C0 00 00 00 FF 00  ................
+00404450 00 FF 00 00 00 FF FF 00 - FF 00 00 00 FF 00 FF 00  ................
+00404460 FF FF 00 00 FF FF FF 00 - 00 00 00 00 00 00 00 00  ................
+00404470 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404480 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404490 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004044A0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004044B0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004044C0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004044D0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+004044E0 00 00 00 00 00 00 00 00 - 00 FF FF FF FF FF FF FF  ................
+004044F0 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404500 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404510 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404520 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404530 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404540 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404550 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404560 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404570 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404580 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+00404590 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+004045A0 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+004045B0 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+004045C0 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+004045D0 FF FF FF FF FF FF F0 00 - 00 FF FF FF FF FF FF FF  ................
+004045E0 FF FF FF FF FF FF F0 00 - 00 00 00 00 00 00 00 00  ................
+004045F0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404600 00 00 00 00 09 99 90 00 - 07 00 00 00 00 00 00 00  ................
+00404610 00 00 00 00 09 99 97 00 - 00 00 00 00 00 00 00 00  ................
+00404620 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404630 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404640 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404650 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00404660 00 00 00 00 00 00 00 00 - FF FF FF FF FF FF FF FF  ................
+00404670 FF FF FF FF FF FF FF FF - FF FF FF FF E0 00 00 01  ................
+00404680 C0 00 00 01 80 00 00 01 - 80 00 00 01 80 00 00 01  ................
+00404690 80 00 00 01 80 00 00 01 - 80 00 00 01 80 00 00 01  ................
+004046A0 80 00 00 01 80 00 00 01 - 80 00 00 01 80 00 00 01  ................
+004046B0 80 00 00 01 80 00 00 01 - 80 00 00 01 80 00 00 01  ................
+004046C0 80 00 00 01 80 00 00 01 - 80 00 00 01 80 00 00 03  ................
+004046D0 80 00 00 03 FF FF FF FF - FF FF FF FF FF FF FF FF  ................
+004046E0 FF FF FF FF FF FF FF FF - 00 00 01 00 01 00 20 20  ..............  
+004046F0 10 00 01 00 04 00 E8 02 - 00 00 01 00 00 00 00 00  ................
+00404700 28 00 00 00 80 01 00 00 - 18 00 00 00 01 00 04 00  (...............
+00404710 00 00 00 00 00 12 00 00 - 00 00 00 00 00 00 00 00  ................
+00404720 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 80 00  ................
+00404730 00 80 00 00 00 80 80 00 - 80 00 00 00 80 00 80 00  ................
+00404740 80 80 00 00 80 80 80 00 - C0 C0 C0 00 00 00 FF 00  ................
+00404750 00 FF 00 00 00 FF FF 00 - FF 00 00 00 FF 00 FF 00  ................
+00404760 FF FF 00 00 FF FF FF 00 - 55 55 55 55 55 55 55 55  ........UUUUUUUU
+00404770 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404780 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404790 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004047F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404800 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404810 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404820 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404830 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404840 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404850 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404860 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404870 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404880 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404890 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004048F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404900 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404910 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404920 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404930 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404940 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404950 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404960 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404970 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404980 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404990 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004049F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A00 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A10 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A20 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A30 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A40 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A50 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00404A60 55 55 55 55 55 55 55 55 - 55 55 55 55 00 00 00 00  UUUUUUUUUUUU....
+00404A70 05 55 55 55 55 55 55 55 - 00 00 00 00 05 55 55 55  .UUUUUUU.....UUU
+00404A80 55 55 55 55 50 00 00 05 - 55 55 55 55 55 55 55 55  UUUUP...UUUUUUUU
+00404A90 55 50 00 00 55 55 55 55 - 55 55 55 55 50 00 00 05  UP..UUUUUUUUP...
+00404AA0 55 55 55 55 55 55 55 55 - 55 50 00 00 55 55 55 55  UUUUUUUUUP..UUUU
+00404AB0 55 55 55 55 55 00 55 55 - 55 55 55 55 55 55 55 55  UUUUU.UUUUUUUUUU
+00404AC0 55 00 00 00 55 55 55 55 - 55 55 55 55 55 00 05 55  U...UUUUUUUUU..U
+00404AD0 55 55 55 55 55 55 55 55 - 55 50 00 05 55 55 55 55  UUUUUUUUUP..UUUU
+00404AE0 55 55 55 55 00 00 00 00 - 05 55 55 55 55 55 55 55  UUUU.....UUUUUUU
+00404AF0 00 00 00 00 05 55 55 55 - 55 55 55 55 50 00 00 05  .....UUUUUUUP...
+00404B00 55 55 55 55 55 55 55 55 - 55 50 00 00 55 55 55 55  UUUUUUUUUP..UUUU
+00404B10 55 55 55 55 50 00 00 05 - 55 55 55 55 55 55 55 55  UUUUP...UUUUUUUU
+00404B20 55 50 00 00 55 55 55 55 - 55 55 55 5F FF FF FF FF  UP..UUUUUUU_....
+00404B30 55 55 55 55 55 55 55 5F - FF FF FF FF 05 55 55 55  UUUUUUU_.....UUU
+00404B40 55 55 55 55 FF FF FF 00 - 55 55 55 55 55 55 55 55  UUUU....UUUUUUUU
+00404B50 55 FF FF F5 55 55 55 55 - 55 55 55 55 FF FF FF 00  U...UUUUUUUU....
+00404B60 55 55 55 55 55 55 55 55 - 50 FF FF F0 05 55 55 55  UUUUUUUUP....UUU
+00404B70 55 55 55 55 5F F0 05 55 - 55 55 55 55 55 55 55 55  UUUU_..UUUUUUUUU
+00404B80 5F FF FF F0 05 55 55 55 - 55 55 55 55 5F FF 00 05  _....UUUUUUU_...
+00404B90 55 55 55 55 55 55 55 55 - 50 FF FF 00 55 55 55 55  UUUUUUUUP...UUUU
+00404BA0 55 55 55 5F FF FF FF FF - 55 55 55 55 55 55 55 5F  UUU_....UUUUUUU_
+00404BB0 FF FF FF FF 05 55 55 55 - 55 55 55 55 FF FF FF 00  .....UUUUUUU....
+00404BC0 55 55 55 55 55 55 55 55 - 55 FF FF F5 55 55 55 55  UUUUUUUUU...UUUU
+00404BD0 55 55 55 55 FF FF FF 00 - 55 55 55 55 55 55 55 55  UUUU....UUUUUUUU
+00404BE0 50 FF FF F0 05 55 55 55 - 55 55 55 55 55 FF F0 55  P....UUUUUUUU..U
+00404BF0 55 55 55 55 55 55 55 5F - FF FF FF FF 05 55 55 55  UUUUUUU_.....UUU
+00404C00 55 55 55 5F FF 55 FF F0 - 05 55 55 55 55 55 55 55  UUU_.U...UUUUUUU
+00404C10 55 5F FF 05 55 55 55 55 - 55 55 55 5F FF 55 FF F0  U_..UUUUUUU_.U..
+00404C20 05 55 55 55 55 55 55 55 - FF F5 5F FF 00 55 55 55  .UUUUUUU.._..UUU
+00404C30 55 55 55 55 5F FF 05 55 - 55 55 55 55 55 55 55 55  UUUU_..UUUUUUUUU
+00404C40 FF F5 5F FF 00 55 55 55 - 55 55 55 55 55 5F FF 00  .._..UUUUUUUU_..
+00404C50 55 55 55 55 55 55 55 55 - FF F5 5F F0 05 55 55 55  UUUUUUUU.._..UUU
+00404C60 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 5F  UUUUU..UUUUUUUU_
+00404C70 FF FF FF FF 05 55 55 55 - 55 55 55 5F FF 55 FF F0  .....UUUUUU_.U..
+00404C80 05 55 55 55 55 55 55 55 - 55 5F FF 05 55 55 55 55  .UUUUUUUU_..UUUU
+00404C90 55 55 55 5F FF 55 FF F0 - 05 55 55 55 55 55 55 55  UUU_.U...UUUUUUU
+00404CA0 FF F5 5F FF 00 55 55 55 - 55 55 55 55 55 FF F0 55  .._..UUUUUUUU..U
+00404CB0 55 55 55 55 55 55 55 55 - FF 00 55 5F 55 55 55 55  UUUUUUUU..U_UUUU
+00404CC0 55 55 55 5F F5 55 5F FF - 05 55 55 55 55 55 55 55  UUU_.U_..UUUUUUU
+00404CD0 55 5F FF 05 55 55 55 55 - 55 55 55 5F F5 55 5F FF  U_..UUUUUUU_.U_.
+00404CE0 05 55 55 55 55 55 55 55 - FF 05 55 FF F0 55 55 55  .UUUUUUU..U..UUU
+00404CF0 55 55 55 55 55 FF 00 55 - 55 55 55 55 55 55 55 5F  UUUUU..UUUUUUUU_
+00404D00 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 55 5F F0  ..U..UUUUUUUUU_.
+00404D10 05 55 55 55 55 55 55 55 - FF 05 55 FF 00 55 55 55  .UUUUUUU..U..UUU
+00404D20 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+00404D30 FF 00 55 5F 55 55 55 55 - 55 55 55 5F F5 55 5F FF  ..U_UUUUUUU_.U_.
+00404D40 05 55 55 55 55 55 55 55 - 55 5F FF 05 55 55 55 55  .UUUUUUUU_..UUUU
+00404D50 55 55 55 5F F5 55 5F FF - 05 55 55 55 55 55 55 55  UUU_.U_..UUUUUUU
+00404D60 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 FF F0 55  ..U..UUUUUUUU..U
+00404D70 55 55 55 55 55 55 55 55 - 5F F0 05 55 55 55 55 55  UUUUUUUU_..UUUUU
+00404D80 55 55 55 55 55 55 5F FF - 05 55 55 55 55 55 55 50  UUUUUU_..UUUUUUP
+00404D90 00 0F FF 00 00 55 55 55 - 55 55 55 55 55 55 5F FF  .....UUUUUUUUU_.
+00404DA0 05 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00404DB0 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 5F  UUUUU..UUUUUUUU_
+00404DC0 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 55 5F FF  ..U..UUUUUUUUU_.
+00404DD0 05 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00404DE0 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+00404DF0 5F F0 05 55 55 55 55 55 - 55 55 55 55 55 55 5F FF  _..UUUUUUUUUUU_.
+00404E00 05 55 55 55 55 55 55 50 - 00 0F FF 00 00 55 55 55  .UUUUUUP.....UUU
+00404E10 55 55 55 55 55 55 5F FF - 05 55 55 55 55 55 55 5F  UUUUUU_..UUUUUU_
+00404E20 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 FF F0 55  ..U..UUUUUUUU..U
+00404E30 55 55 55 55 55 55 55 55 - 55 FF 00 55 55 55 55 55  UUUUUUUUU..UUUUU
+00404E40 55 55 55 55 55 55 5F FF - 05 55 55 55 55 55 55 FF  UUUUUU_..UUUUUU.
+00404E50 FF FF FF FF F0 55 55 55 - 55 55 55 55 55 55 5F FF  .....UUUUUUUUU_.
+00404E60 05 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00404E70 55 55 55 55 55 5F F0 05 - 55 55 55 55 55 55 55 5F  UUUUU_..UUUUUUU_
+00404E80 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 00 00 FF  ..U..UUUUUUUU...
+00404E90 00 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00404EA0 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+00404EB0 55 FF 00 55 55 55 55 55 - 55 55 55 55 55 55 5F FF  U..UUUUUUUUUUU_.
+00404EC0 05 55 55 55 55 55 55 FF - FF FF FF FF F0 55 55 55  .UUUUUU......UUU
+00404ED0 55 55 55 55 55 55 5F FF - 05 55 55 55 55 55 55 5F  UUUUUU_..UUUUUU_
+00404EE0 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 FF F0 55  ..U..UUUUUUUU..U
+00404EF0 55 55 55 55 55 55 55 55 - 55 FF F0 05 55 55 55 55  UUUUUUUUU...UUUU
+00404F00 55 55 55 55 55 55 5F FF - 55 55 55 55 55 55 55 FF  UUUUUU_.UUUUUUU.
+00404F10 00 5F FF 05 F5 55 55 55 - 55 55 55 55 50 55 5F FF  ._...UUUUUUUPU_.
+00404F20 55 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  UUUUUUU_..U..UUU
+00404F30 55 55 55 55 55 5F FF 05 - 55 55 55 55 55 55 55 5F  UUUUU_..UUUUUUU_
+00404F40 FF 00 55 FF F5 55 55 55 - 55 55 55 55 5F FF FF FF  ..U..UUUUUUU_...
+00404F50 F0 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00404F60 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+00404F70 55 FF F0 05 55 55 55 55 - 55 55 55 55 55 55 5F FF  U...UUUUUUUUUU_.
+00404F80 55 55 55 55 55 55 55 FF - 00 5F FF 05 F5 55 55 55  UUUUUUU.._...UUU
+00404F90 55 55 55 55 50 55 5F FF - 55 55 55 55 55 55 55 5F  UUUUPU_.UUUUUUU_
+00404FA0 FF 05 55 FF F0 55 55 55 - 55 55 55 55 55 FF F0 55  ..U..UUUUUUUU..U
+00404FB0 55 55 55 55 55 55 55 55 - 55 5F FF 00 55 55 55 55  UUUUUUUUU_..UUUU
+00404FC0 55 55 55 55 55 00 FF F5 - 55 55 55 55 55 55 55 5F  UUUUU...UUUUUUU_
+00404FD0 F0 5F FF 05 55 55 55 55 - 55 55 55 55 F0 00 FF F5  ._..UUUUUUUU....
+00404FE0 55 55 55 55 55 55 55 5F - FF 00 55 FF F5 55 55 55  UUUUUUU_..U..UUU
+00404FF0 55 55 55 55 55 55 FF 05 - 55 55 55 55 55 55 55 55  UUUUUU..UUUUUUUU
+00405000 FF F0 0F FF 55 55 55 55 - 55 55 55 55 FF F5 5F FF  ....UUUUUUUU.._.
+00405010 F0 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00405020 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+00405030 55 5F FF 00 55 55 55 55 - 55 55 55 55 55 00 FF F5  U_..UUUUUUUUU...
+00405040 55 55 55 55 55 55 55 5F - F0 5F FF 05 55 55 55 55  UUUUUUU_._..UUUU
+00405050 55 55 55 55 F0 00 FF F5 - 55 55 55 55 55 55 55 5F  UUUU....UUUUUUU_
+00405060 FF 00 55 FF F5 55 55 55 - 55 55 55 55 55 FF F0 55  ..U..UUUUUUUU..U
+00405070 55 55 55 55 55 55 55 55 - 55 55 FF F0 55 55 55 55  UUUUUUUUUU..UUUU
+00405080 55 55 55 55 5F FF FF 05 - 55 55 55 55 55 55 55 55  UUUU_...UUUUUUUU
+00405090 F0 0F FF 05 55 55 55 55 - 55 55 55 55 FF FF FF 55  ....UUUUUUUU...U
+004050A0 55 55 55 55 55 55 55 5F - FF F5 0F FF 55 55 55 55  UUUUUUU_....UUUU
+004050B0 55 55 55 55 55 55 FF 00 - 55 55 55 55 55 55 55 55  UUUUUU..UUUUUUUU
+004050C0 5F FF FF F0 05 55 55 55 - 55 55 55 5F FF 05 55 FF  _....UUUUUU_..U.
+004050D0 F0 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+004050E0 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+004050F0 55 55 FF F0 55 55 55 55 - 55 55 55 55 5F FF FF 05  UU..UUUUUUUU_...
+00405100 55 55 55 55 55 55 55 55 - F0 0F FF 05 55 55 55 55  UUUUUUUU....UUUU
+00405110 55 55 55 55 FF FF FF 55 - 55 55 55 55 55 55 55 5F  UUUU...UUUUUUUU_
+00405120 FF F5 0F FF 55 55 55 55 - 55 55 55 55 55 FF F0 55  ....UUUUUUUUU..U
+00405130 55 55 55 55 55 55 55 55 - 55 55 FF F0 05 55 55 55  UUUUUUUUUU...UUU
+00405140 55 55 55 55 55 5F FF 00 - 55 55 55 55 55 55 55 55  UUUUU_..UUUUUUUU
+00405150 FF 0F FF 05 55 55 55 55 - 55 55 55 55 FF 05 55 55  ....UUUUUUUU..UU
+00405160 55 55 55 55 55 55 55 5F - FF 0F FF F5 55 55 55 55  UUUUUUU_....UUUU
+00405170 55 55 55 55 55 55 5F F0 - 55 55 55 55 55 55 55 55  UUUUUU_.UUUUUUUU
+00405180 FF F5 5F FF 00 55 55 55 - 55 55 55 5F FF 05 55 FF  .._..UUUUUU_..U.
+00405190 F0 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+004051A0 55 55 55 55 55 FF F0 55 - 55 55 55 55 55 55 55 55  UUUUU..UUUUUUUUU
+004051B0 55 55 FF F0 05 55 55 55 - 55 55 55 55 55 5F FF 00  UU...UUUUUUUU_..
+004051C0 55 55 55 55 55 55 55 55 - FF 0F FF 05 55 55 55 55  UUUUUUUU....UUUU
+004051D0 55 55 55 55 FF 05 55 55 - 55 55 55 55 55 55 55 5F  UUUU..UUUUUUUUU_
+004051E0 FF 0F FF F5 55 55 55 55 - 55 55 55 55 05 FF F0 55  ....UUUUUUUU...U
+004051F0 55 55 55 55 55 55 55 55 - 00 55 5F FF 05 55 55 55  UUUUUUUU.U_..UUU
+00405200 55 55 55 55 00 55 5F F0 - 05 55 55 55 55 55 55 55  UUUU.U_..UUUUUUU
+00405210 5F 5F FF 05 55 55 55 55 - 55 55 55 55 FF 05 55 55  __..UUUUUUUU..UU
+00405220 55 55 55 55 55 55 55 55 - FF 00 55 55 55 55 55 55  UUUUUUUU..UUUUUU
+00405230 55 55 55 55 05 55 5F F0 - 05 55 55 55 55 55 55 5F  UUUU.U_..UUUUUU_
+00405240 FF 05 55 FF F0 55 55 55 - 55 55 55 5F FF 05 55 FF  ..U..UUUUUU_..U.
+00405250 F0 55 55 55 55 55 55 5F - FF 05 55 FF F0 55 55 55  .UUUUUU_..U..UUU
+00405260 55 55 55 55 05 FF F0 55 - 55 55 55 55 55 55 55 55  UUUU...UUUUUUUUU
+00405270 00 55 5F FF 05 55 55 55 - 55 55 55 55 00 55 5F F0  .U_..UUUUUUU.U_.
+00405280 05 55 55 55 55 55 55 55 - 5F 5F FF 05 55 55 55 55  .UUUUUUU__..UUUU
+00405290 55 55 55 55 FF 05 55 55 - 55 55 55 55 55 55 55 55  UUUU..UUUUUUUUUU
+004052A0 FF 00 55 55 55 55 55 55 - 55 55 55 5F 50 FF F0 55  ..UUUUUUUUU_P..U
+004052B0 55 55 55 55 55 55 55 5F - F0 55 5F FF 05 55 55 55  UUUUUUU_.U_..UUU
+004052C0 55 55 55 5F F0 55 5F FF - 05 55 55 55 55 55 55 55  UUU_.U_..UUUUUUU
+004052D0 55 FF FF 05 55 55 55 55 - 55 55 55 55 FF 05 55 55  U...UUUUUUUU..UU
+004052E0 55 55 55 55 55 55 55 55 - FF F0 05 55 55 55 55 55  UUUUUUUU...UUUUU
+004052F0 55 55 55 5F 05 55 55 FF - 05 55 55 55 55 55 55 5F  UUU_.UU..UUUUUU_
+00405300 FF 05 55 FF F0 55 55 55 - 55 55 55 5F FF 05 55 FF  ..U..UUUUUU_..U.
+00405310 F5 55 55 55 55 55 55 55 - FF 05 55 FF F5 55 55 55  .UUUUUUU..U..UUU
+00405320 55 55 55 5F 50 FF F0 55 - 55 55 55 55 55 55 55 5F  UUU_P..UUUUUUUU_
+00405330 F0 55 5F FF 05 55 55 55 - 55 55 55 5F F0 55 5F FF  .U_..UUUUUU_.U_.
+00405340 05 55 55 55 55 55 55 55 - 55 FF FF 05 55 55 55 55  .UUUUUUUU...UUUU
+00405350 55 55 55 55 FF 05 55 55 - 55 55 55 55 55 55 55 55  UUUU..UUUUUUUUUU
+00405360 FF F0 05 55 55 55 55 55 - 55 55 55 55 FF FF F0 55  ...UUUUUUUUU...U
+00405370 55 55 55 55 55 55 55 5F - F0 05 5F FF 05 55 55 55  UUUUUUU_.._..UUU
+00405380 55 55 55 5F F0 05 5F FF - 05 55 55 55 55 55 55 55  UUU_.._..UUUUUUU
+00405390 55 FF FF 05 55 55 55 55 - 55 55 55 55 FF 00 00 00  U...UUUUUUUU....
+004053A0 55 55 55 55 55 55 55 55 - 5F FF 00 55 55 55 55 55  UUUUUUUU_..UUUUU
+004053B0 55 55 55 5F 00 00 00 FF - 00 55 55 55 55 55 55 5F  UUU_.....UUUUUU_
+004053C0 FF 00 55 FF F5 55 55 55 - 55 55 55 55 FF 00 55 FF  ..U..UUUUUUU..U.
+004053D0 05 55 55 55 55 55 55 55 - FF 00 55 FF 05 55 55 55  .UUUUUUU..U..UUU
+004053E0 55 55 55 55 FF FF F0 55 - 55 55 55 55 55 55 55 5F  UUUU...UUUUUUUU_
+004053F0 F0 05 5F FF 05 55 55 55 - 55 55 55 5F F0 05 5F FF  .._..UUUUUU_.._.
+00405400 05 55 55 55 55 55 55 55 - 55 FF FF 05 55 55 55 55  .UUUUUUUU...UUUU
+00405410 55 55 55 55 FF 00 00 00 - 55 55 55 55 55 55 55 55  UUUU....UUUUUUUU
+00405420 5F FF 00 55 55 55 55 55 - 55 55 55 55 5F FF F0 55  _..UUUUUUUUU_..U
+00405430 55 55 55 55 55 55 55 5F - FF 00 FF FF 55 55 55 55  UUUUUUU_....UUUU
+00405440 55 55 55 5F FF 00 0F FF - 55 55 55 55 55 55 55 55  UUU_....UUUUUUUU
+00405450 55 5F FF 05 55 55 55 55 - 55 55 55 55 FF FF FF F0  U_..UUUUUUUU....
+00405460 55 55 55 55 55 55 55 55 - 55 FF F0 00 55 55 55 55  UUUUUUUUU...UUUU
+00405470 55 55 55 5F FF FF FF FF - F0 55 55 55 55 55 55 55  UUU_.....UUUUUUU
+00405480 FF F0 0F FF 55 55 55 55 - 55 55 55 55 FF F0 0F FF  ....UUUUUUUU....
+00405490 55 55 55 55 55 55 55 55 - 5F F0 0F FF 55 55 55 55  UUUUUUUU_...UUUU
+004054A0 55 55 55 55 5F FF F0 55 - 55 55 55 55 55 55 55 5F  UUUU_..UUUUUUUU_
+004054B0 FF 00 FF FF 55 55 55 55 - 55 55 55 5F FF 00 0F FF  ....UUUUUUU_....
+004054C0 55 55 55 55 55 55 55 55 - 55 5F FF 05 55 55 55 55  UUUUUUUUU_..UUUU
+004054D0 55 55 55 55 FF FF FF F0 - 55 55 55 55 55 55 55 55  UUUU....UUUUUUUU
+004054E0 55 FF F0 00 55 55 55 55 - 55 55 55 55 55 5F F5 55  U...UUUUUUUUU_.U
+004054F0 55 55 55 55 55 55 55 55 - 5F FF FF 55 55 55 55 55  UUUUUUUU_..UUUUU
+00405500 55 55 55 55 5F FF FF 55 - 55 55 55 55 55 55 55 55  UUUU_..UUUUUUUUU
+00405510 55 5F FF 55 55 55 55 55 - 55 55 55 55 FF FF FF F0  U_.UUUUUUUUU....
+00405520 55 55 55 55 55 55 55 55 - 55 55 FF F5 55 55 55 55  UUUUUUUUUU..UUUU
+00405530 55 55 55 5F FF FF FF FF - F5 55 55 55 55 55 55 55  UUU_.....UUUUUUU
+00405540 5F FF FF F5 55 55 55 55 - 55 55 55 55 55 FF FF F5  _...UUUUUUUUU...
+00405550 55 55 55 55 55 55 55 55 - 55 FF FF 55 55 55 55 55  UUUUUUUUU..UUUUU
+00405560 55 55 55 55 55 5F F5 55 - 55 55 55 55 55 55 55 55  UUUUU_.UUUUUUUUU
+00405570 5F FF FF 55 55 55 55 55 - 55 55 55 55 5F FF FF 55  _..UUUUUUUUU_..U
+00405580 55 55 55 55 55 55 55 55 - 55 5F FF 55 55 55 55 55  UUUUUUUUU_.UUUUU
+00405590 55 55 55 55 FF FF FF F0 - 55 55 55 55 55 55 55 55  UUUU....UUUUUUUU
+004055A0 55 55 FF F5 55 55 55 55 - 55 55 55 55 55 55 55 55  UU..UUUUUUUUUUUU
+004055B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004055C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004055D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 F5  UUUUUUUUUUUUUUU.
+004055E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004055F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405600 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405610 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405620 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405630 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405640 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405650 55 55 55 55 55 55 55 F5 - 55 55 55 55 55 55 55 55  UUUUUUU.UUUUUUUU
+00405660 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405670 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405680 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405690 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004056F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405700 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405710 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405720 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405730 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405740 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405750 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405760 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405770 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405780 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405790 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004057F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405800 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405810 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405820 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405830 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405840 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405850 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405860 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405870 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405880 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405890 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058A0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058B0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058C0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058D0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058E0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+004058F0 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405900 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405910 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405920 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405930 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405940 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405950 55 55 55 55 55 55 55 55 - 55 55 55 55 55 55 55 55  UUUUUUUUUUUUUUUU
+00405960 55 55 55 55 55 55 55 55 - 28 00 00 00 01 00 00 00  UUUUUUUU(.......
+00405970 40 00 00 00 01 00 18 00 - 00 00 00 00 00 01 00 00  @...............
+00405980 C3 0E 00 00 C3 0E 00 00 - 00 00 00 00 00 00 00 00  ................
+00405990 D1 D1 B3 00 CF D1 B4 00 - D0 CF AE 00 CD CD B2 00  ................
+004059A0 CC C7 AA 00 CD C7 A9 00 - C6 C3 AB 00 C6 C1 A6 00  ................
+004059B0 C3 C0 A2 00 C7 BD A2 00 - C3 B8 A5 00 BD B8 A2 00  ................
+004059C0 C2 B6 9C 00 BA B2 9E 00 - BB B0 99 00 B8 AC 9B 00  ................
+004059D0 B8 AA 93 00 B6 A9 94 00 - B3 A9 90 00 B3 A4 90 00  ................
+004059E0 B4 A2 8D 00 AD 9F 8B 00 - AC 9D 89 00 AE 99 8C 00  ................
+004059F0 AB 97 84 00 AD 93 81 00 - A8 96 87 00 A3 92 80 00  ................
+00405A00 A2 93 80 00 A1 8E 7B 00 - A5 87 7C 00 A2 88 78 00  ......{...|...x.
+00405A10 A0 88 76 00 A0 80 73 00 - 9C 80 76 00 9B 80 74 00  ..v...s...v...t.
+00405A20 99 7E 6E 00 9A 77 6B 00 - 91 78 6B 00 90 75 6A 00  .~n..wk..xk..uj.
+00405A30 8F 72 6C 00 8F 70 67 00 - 8C 70 63 00 90 6C 66 00  .rl..pg..pc..lf.
+00405A40 8E 66 5E 00 86 67 5E 00 - 89 66 5B 00 85 62 5B 00  .f^..g^..f[..b[.
+00405A50 87 5F 58 00 84 5F 56 00 - 80 5D 5A 00 80 57 56 00  ._X.._V..]Z..WV.
+00405A60 7F 57 50 00 7B 53 50 00 - 7D 51 51 00 7C 4B 4D 00  .WP.{SP.}QQ.|KM.
+00405A70 76 4A 4E 00 72 4A 47 00 - 75 49 49 00 70 49 42 00  vJN.rJG.uII.pIB.
+00405A80 71 41 41 00 6E 3F 3F 00 - 6D 3C 41 00 6C 3C 3A 00  qAA.n??.m<A.l<:.
+00405A90 01 00 04 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00405AA0 00 00 00 00 01 00 26 00 - 46 00 69 00 6C 00 65 00  ......&.F.i.l.e.
+00405AB0 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00405AC0 F2 03 00 00 00 00 26 00 - 4F 00 70 00 65 00 6E 00  ......&.O.p.e.n.
+00405AD0 00 00 00 00 00 08 00 00 - 00 00 00 00 00 00 00 00  ................
+00405AE0 00 00 00 00 00 00 00 00 - 00 00 00 00 FC 03 00 00  ................
+00405AF0 00 00 26 00 53 00 61 00 - 76 00 65 00 00 00 00 00  ..&.S.a.v.e.....
+00405B00 00 08 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+00405B10 00 00 00 00 00 00 00 00 - 42 04 00 00 80 00 26 00  ........B.....&.
+00405B20 45 00 78 00 69 00 74 00 - 00 00 00 00 00 00 00 00  E.x.i.t.........
+00405B30 00 00 00 00 00 00 00 00 - 81 00 26 00 48 00 65 00  ..........&.H.e.
+00405B40 6C 00 70 00 00 00 00 00 - 00 00 00 00 00 00 00 00  l.p.............
+00405B50 00 00 00 00 10 27 00 00 - 80 00 26 00 41 00 62 00  .....'....&.A.b.
+00405B60 6F 00 75 00 74 00 00 00 - 01 00 FF FF 00 00 00 00  o.u.t...........
+00405B70 00 00 00 00 C4 08 C0 90 - 04 00 0A 00 0A 00 01 01  ................
+00405B80 85 00 00 00 00 00 20 00 - 41 00 62 00 6F 00 75 00  ...... .A.b.o.u.
+00405B90 74 00 00 00 08 00 BC 02 - 00 01 4D 00 53 00 20 00  t.........M.S. .
+00405BA0 53 00 61 00 6E 00 73 00 - 20 00 53 00 65 00 72 00  S.a.n.s. .S.e.r.
+00405BB0 69 00 66 00 00 00 00 00 - 00 00 00 00 00 00 00 00  i.f.............
+00405BC0 00 00 02 50 00 00 00 00 - 0C 00 0A 00 E7 03 00 00  ...P............
+00405BD0 FF FF 82 00 69 00 6D 00 - 67 00 00 00 00 00 00 00  ....i.m.g.......
+00405BE0 00 00 00 00 00 00 00 00 - 03 00 00 50 0F 00 23 00  ...........P..#.
+00405BF0 12 00 14 00 E6 03 00 00 - FF FF 82 00 FF FF F4 01  ................
+00405C00 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 02 50  ...............P
+00405C10 33 00 25 00 BE 00 3C 00 - E5 03 00 00 FF FF 82 00  3.%...<.........
+00405C20 54 00 65 00 78 00 74 00 - 00 00 00 00 00 00 00 00  T.e.x.t.........
+00405C30 00 00 00 00 00 00 01 50 - BD 00 68 00 32 00 0E 00  .......P..h.2...
+00405C40 01 00 00 00 FF FF 80 00 - 4F 00 4B 00 00 00 00 00  ........O.K.....
+00405C50 F8 02 34 00 00 00 56 00 - 53 00 5F 00 56 00 45 00  ..4...V.S._.V.E.
+00405C60 52 00 53 00 49 00 4F 00 - 4E 00 5F 00 49 00 4E 00  R.S.I.O.N._.I.N.
+00405C70 46 00 4F 00 00 00 00 00 - BD 04 EF FE 00 00 01 00  F.O.............
+00405C80 00 00 01 00 00 00 00 00 - 00 00 01 00 00 00 00 00  ................
+00405C90 00 00 00 00 00 00 00 00 - 04 00 00 00 01 00 00 00  ................
+00405CA0 00 00 00 00 00 00 00 00 - 00 00 00 00 58 02 00 00  ............X...
+00405CB0 01 00 53 00 74 00 72 00 - 69 00 6E 00 67 00 46 00  ..S.t.r.i.n.g.F.
+00405CC0 69 00 6C 00 65 00 49 00 - 6E 00 66 00 6F 00 00 00  i.l.e.I.n.f.o...
+00405CD0 34 02 00 00 01 00 30 00 - 34 00 30 00 39 00 30 00  4.....0.4.0.9.0.
+00405CE0 34 00 42 00 30 00 00 00 - 44 00 12 00 01 00 43 00  4.B.0...D.....C.
+00405CF0 6F 00 6D 00 70 00 61 00 - 6E 00 79 00 4E 00 61 00  o.m.p.a.n.y.N.a.
+00405D00 6D 00 65 00 00 00 00 00 - 59 00 6F 00 75 00 72 00  m.e.....Y.o.u.r.
+00405D10 20 00 43 00 6F 00 6D 00 - 70 00 61 00 6E 00 79 00   .C.o.m.p.a.n.y.
+00405D20 20 00 4E 00 61 00 6D 00 - 65 00 00 00 5E 00 1B 00   .N.a.m.e...^...
+00405D30 01 00 46 00 69 00 6C 00 - 65 00 44 00 65 00 73 00  ..F.i.l.e.D.e.s.
+00405D40 63 00 72 00 69 00 70 00 - 74 00 69 00 6F 00 6E 00  c.r.i.p.t.i.o.n.
+00405D50 00 00 00 00 44 00 65 00 - 73 00 63 00 72 00 69 00  ....D.e.s.c.r.i.
+00405D60 70 00 74 00 69 00 6F 00 - 6E 00 20 00 4F 00 66 00  p.t.i.o.n. .O.f.
+00405D70 20 00 41 00 70 00 70 00 - 6C 00 69 00 63 00 61 00   .A.p.p.l.i.c.a.
+00405D80 74 00 69 00 6F 00 6E 00 - 00 00 00 00 28 00 04 00  t.i.o.n.....(...
+00405D90 01 00 46 00 69 00 6C 00 - 65 00 56 00 65 00 72 00  ..F.i.l.e.V.e.r.
+00405DA0 73 00 69 00 6F 00 6E 00 - 00 00 00 00 31 00 2E 00  s.i.o.n.....1...
+00405DB0 30 00 00 00 34 00 0A 00 - 01 00 49 00 6E 00 74 00  0...4.....I.n.t.
+00405DC0 65 00 72 00 6E 00 61 00 - 6C 00 4E 00 61 00 6D 00  e.r.n.a.l.N.a.m.
+00405DD0 65 00 00 00 49 00 74 00 - 65 00 6D 00 20 00 4E 00  e...I.t.e.m. .N.
+00405DE0 61 00 6D 00 65 00 00 00 - 44 00 0E 00 01 00 4F 00  a.m.e...D.....O.
+00405DF0 72 00 69 00 67 00 69 00 - 6E 00 61 00 6C 00 46 00  r.i.g.i.n.a.l.F.
+00405E00 69 00 6C 00 65 00 6E 00 - 61 00 6D 00 65 00 00 00  i.l.e.n.a.m.e...
+00405E10 4F 00 72 00 69 00 67 00 - 69 00 6E 00 61 00 6C 00  O.r.i.g.i.n.a.l.
+00405E20 20 00 46 00 69 00 6C 00 - 65 00 00 00 76 00 29 00   .F.i.l.e...v.).
+00405E30 01 00 4C 00 65 00 67 00 - 61 00 6C 00 43 00 6F 00  ..L.e.g.a.l.C.o.
+00405E40 70 00 79 00 72 00 69 00 - 67 00 68 00 74 00 00 00  p.y.r.i.g.h.t...
+00405E50 A9 00 20 00 32 00 30 00 - 31 00 30 00 2D 00 32 00  .. .2.0.1.0.-.2.
+00405E60 30 00 32 00 30 00 20 00 - 41 00 70 00 70 00 6C 00  0.2.0. .A.p.p.l.
+00405E70 69 00 63 00 61 00 74 00 - 69 00 6F 00 6E 00 20 00  i.c.a.t.i.o.n. .
+00405E80 43 00 6F 00 70 00 79 00 - 72 00 69 00 67 00 68 00  C.o.p.y.r.i.g.h.
+00405E90 74 00 20 00 48 00 6F 00 - 6C 00 64 00 65 00 72 00  t. .H.o.l.d.e.r.
+00405EA0 00 00 00 00 34 00 0A 00 - 01 00 50 00 72 00 6F 00  ....4.....P.r.o.
+00405EB0 64 00 75 00 63 00 74 00 - 4E 00 61 00 6D 00 65 00  d.u.c.t.N.a.m.e.
+00405EC0 00 00 00 00 49 00 74 00 - 65 00 6D 00 20 00 4E 00  ....I.t.e.m. .N.
+00405ED0 61 00 6D 00 65 00 00 00 - 2C 00 04 00 01 00 50 00  a.m.e...,.....P.
+00405EE0 72 00 6F 00 64 00 75 00 - 63 00 74 00 56 00 65 00  r.o.d.u.c.t.V.e.
+00405EF0 72 00 73 00 69 00 6F 00 - 6E 00 00 00 31 00 2E 00  r.s.i.o.n...1...
+00405F00 30 00 00 00 44 00 00 00 - 01 00 56 00 61 00 72 00  0...D.....V.a.r.
+00405F10 46 00 69 00 6C 00 65 00 - 49 00 6E 00 66 00 6F 00  F.i.l.e.I.n.f.o.
+00405F20 00 00 00 00 24 00 04 00 - 00 00 54 00 72 00 61 00  ....$.....T.r.a.
+00405F30 6E 00 73 00 6C 00 61 00 - 74 00 69 00 6F 00 6E 00  n.s.l.a.t.i.o.n.
+00405F40 00 00 00 00 09 04 B0 04                            ........
+
+End of Disassembly
+
